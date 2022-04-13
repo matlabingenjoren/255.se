@@ -2,3 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Dogica Pixel';
+    src: url('/fonts/dogicapixel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Dogica Pixel';
+    src: url('/fonts/dogicapixelbold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+}

@@ -8,3 +8,10 @@ declare namespace App {
 	// interface Session {}
 	// interface Stuff {}
 }
+
+type DeepPartial<T> = T extends object ? { [P in keyof T]?: DeepPartial<T[P]> } : T;
+
+declare namespace tailwindcss {
+	const config: import('tailwindcss/tailwind-config').TailwindConfig &
+		DeepPartial<import('tailwindcss/tailwind-config-default').TailwindConfigDefault>;
+}
