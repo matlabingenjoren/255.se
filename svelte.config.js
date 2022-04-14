@@ -1,60 +1,70 @@
-import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
-import { imagetools } from 'vite-imagetools';
-import path from 'path';
-import resolveConfig from 'tailwindcss/resolveConfig.js';
-import twConfig from './tailwind.config.cjs';
-import { doSync } from 'do-sync';
+import adapter from '@sveltejs/adapter-auto'
+import preprocess from 'svelte-preprocess'
+import { mdsvex } from 'mdsvex'
+import { imagetools } from 'vite-imagetools'
+import path from 'path'
+import resolveConfig from 'tailwindcss/resolveConfig.js'
+import twConfig from './tailwind.config.cjs'
+import { doSync } from 'do-sync'
 
 /** @type {import('vite-imagetools').OutputFormat} */
 const imageFormat = () => (metadatas) => {
-	const formats = {};
-	metadatas.forEach((meta) => {
-		if (!(meta.format in formats)) {
-			formats[meta.format] = [];
-		}
-		formats[meta.format].push(meta);
-	});
+  const formats = {}
+  metadatas.forEach((meta) => {
+    if (!(meta.format in formats)) {
+      formats[meta.format] = []
+    }
+    formats[meta.format].push(meta)
+  })
 
-	const sources = Object.entries(formats).map(([format, metas]) => ({
-		srcset: metas.map((meta) => `${meta.src} ${meta.width}w`).join(', '),
-		type: `image/${format}`
-	}));
+  const sources = Object.entries(formats).map(([format, metas]) => ({
+    srcset: metas.map((meta) => `${meta.src} ${meta.width}w`).join(', '),
+    type: `image/${format}`,
+  }))
 
-	const file = metadatas[0].image.options.input.file;
-	const data = doSync(async (file) => {
-		const sharp = require('sharp');
-		return (await sharp(file).resize({width: 20}).png().toBuffer()).toString('base64');
-	})(file)
+  const file = metadatas[0].image.options.input.file
+  const data = doSync(async (file) => {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const sharp = require('sharp')
+    return (await sharp(file).resize({ width: 20 }).png().toBuffer()).toString('base64')
+  })(file)
 
-	return {
-		sources,
-		placeholder: `data:image/png;base64,${data}`,
-		alt: path.parse(file).name
-	};
-};
+  return {
+    sources,
+    placeholder: `data:image/png;base64,${data}`,
+    alt: path.parse(file).name,
+  }
+}
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
-	preprocess: [
-		preprocess({
-			postcss: true,
-			replace: [['tailwindcss.config', JSON.stringify(resolveConfig(twConfig))]]
-		})
-	],
+  // Consult https://github.com/sveltejs/svelte-preprocess
+  // for more information about preprocessors
+  preprocess: [
+    mdsvex({
+      smartypants: {
+        quotes: false,
+        dashes: 'oldschool',
+      },
+    }),
+    preprocess({
+      postcss: true,
+      replace: [['tailwindcss.config', JSON.stringify(resolveConfig(twConfig))]],
+    }),
+  ],
 
-	kit: {
-		adapter: adapter(),
-		vite: {
-			plugins: [
-				imagetools({
-					extendOutputFormats: (defaults) => ({ ...defaults, Image: imageFormat })
-				})
-			]
-		}
-	}
-};
+  extensions: ['.svelte', '.svx'],
 
-export default config;
+  kit: {
+    adapter: adapter(),
+    vite: {
+      plugins: [
+        imagetools({
+          extendOutputFormats: (defaults) => ({ ...defaults, Image: imageFormat }),
+        }),
+      ],
+    },
+  },
+}
+
+export default config

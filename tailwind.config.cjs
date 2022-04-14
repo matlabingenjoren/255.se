@@ -1,19 +1,19 @@
 /** @type {import('tailwindcss/tailwind-config-default').TailwindConfigDefault['theme']} */
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss/tailwind-config').TailwindConfig} */
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ['./src/**/*.{html,js,svelte,ts,svx}'],
 
-	theme: {
-		extend: {
-			fontFamily: {
-				pixel: ['Dogica Pixel', defaultTheme.fontFamily.sans]
-			}
-		}
-	},
+  theme: {
+    extend: {
+      fontFamily: {
+        pixel: ['Dogica Pixel', defaultTheme.fontFamily.sans],
+      },
+    },
+  },
 
-	plugins: []
-};
+  plugins: [],
+}
 
-module.exports = config;
+module.exports = config
