@@ -13,12 +13,12 @@
 
 	const theme = tailwindcss.config.theme;
 	const transDuration = Number(theme.transitionDuration?.DEFAULT?.slice(0, -2)) || 0;
-	const md = Number(theme.screens?.md?.slice(0, -2)) || 0;
+	const lg = Number(theme.screens?.lg?.slice(0, -2)) || 0;
 
 	let windowWidth: number = 0;
-	let mdScreen: boolean;
-	$: mdScreen = windowWidth >= md;
-	$: if (mdScreen && selected.length > 0) {
+	let lgScreen: boolean;
+	$: lgScreen = windowWidth >= lg;
+	$: if (lgScreen && selected.length > 0) {
 		selected = [selected[0]];
 	}
 
@@ -41,7 +41,7 @@
 	function setSelected(i: number, value: boolean) {
 		const idx = selected.indexOf(i);
 		if (idx < 0 && value) {
-			if (mdScreen) {
+			if (lgScreen) {
 				selected = [i];
 			} else {
 				selected = [...selected, i];
@@ -67,17 +67,17 @@
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
-<nav class="bg-gray-300 md:relative" bind:clientWidth={navWidth}>
-	<div class="md:container md:mx-auto md:flex">
-		<div class="flex items-center md:flex-grow">
-			<div class="flex-grow m-2 md:ml-0 font-pixel font-bold">
+<nav class="bg-gray-300 lg:relative" bind:clientWidth={navWidth}>
+	<div class="lg:container lg:mx-auto lg:flex">
+		<div class="flex items-center lg:flex-grow">
+			<div class="flex-grow m-2 lg:ml-0 font-pixel font-bold">
 				<a href="/">
 					<span class="text-5xl">255</span><span class="text-2xl">.se</span>
 				</a>
 			</div>
 			<svg
 				on:click={toggleExpanded}
-				class="w-6 m-4 md:mr-0 cursor-pointer md:hidden"
+				class="w-6 m-4 lg:mr-0 cursor-pointer lg:hidden"
 				version="1.1"
 				viewBox="0 0 5 5"
 				xmlns="http://www.w3.org/2000/svg"
@@ -87,24 +87,24 @@
 				<rect y="4" width="5" height="1" />
 			</svg>
 		</div>
-		{#if expanded || mdScreen}
+		{#if expanded || lgScreen}
 			<ul
-				class="p-2 bg-gray-100 md:bg-transparent flex flex-col md:flex-row md:items-center gap-2 md:gap-4"
-				transition:slide={{ duration: mdScreen ? 0 : transDuration }}
+				class="p-2 bg-gray-100 lg:bg-transparent flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-4"
+				transition:slide={{ duration: lgScreen ? 0 : transDuration }}
 			>
 				{#each items as item, i}
 					<li
-						on:mouseenter={() => mdScreen && setSelected(i, true)}
-						on:mouseleave={() => mdScreen && setSelected(i, false)}
+						on:mouseenter={() => lgScreen && setSelected(i, true)}
+						on:mouseleave={() => lgScreen && setSelected(i, false)}
 					>
 						<div
-							on:click={() => !mdScreen && toggleSelected(i)}
+							on:click={() => !lgScreen && toggleSelected(i)}
 							class="cursor-pointer group font-pixel font-bold"
 						>
 							<div class="w-fit" bind:this={titles[i]}>
 								<slot name="title" {item} />
 								<div
-									class={`h-1 bg-gray-300 md:bg-gray-400 ${
+									class={`h-1 bg-gray-300 lg:bg-gray-400 ${
 										selected.includes(i) ? 'w-full' : 'w-0'
 									} group-hover:w-full transition-[width] m-auto`}
 								/>
@@ -117,7 +117,7 @@
 								class="absolute w-max"
 								bind:this={dropdowns[i]}
 							>
-								<div class="md:m-3 pl-2 bg-gray-100 md:p-2">
+								<div class="lg:m-3 pl-2 bg-gray-100 lg:p-2">
 									<slot name="dropdown" {item} />
 								</div>
 							</div>
@@ -125,10 +125,10 @@
 						{#if selected.includes(i)}
 							<div
 								style={`max-width: ${navWidth}px; left: ${lefts[i] || 0}px`}
-								class="md:absolute"
+								class="lg:absolute lg:z-10"
 								transition:slide
 							>
-								<div class="md:m-3 pl-2 bg-gray-100 md:p-2">
+								<div class="lg:m-3 pl-2 bg-gray-100 lg:p-2">
 									<slot name="dropdown" {item} />
 								</div>
 							</div>

@@ -15,3 +15,15 @@ declare namespace tailwindcss {
 	const config: import('tailwindcss/tailwind-config').TailwindConfig &
 		DeepPartial<import('tailwindcss/tailwind-config-default').TailwindConfigDefault>;
 }
+
+declare module '*&Image' {
+	export const sources: { srcset: string; type: string }[];
+	export const placeholder: string;
+	export const alt: string;
+}
+
+declare module '*?Image' {
+	export const sources: { srcset: string; type: string }[];
+	export const placeholder: string;
+	export const alt: string;
+}

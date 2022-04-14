@@ -9,7 +9,7 @@
 
 	const navbarItems: NavbarItem[] = [
 		{
-			text: 'Övrigt',
+			text: 'Sittningslokaler',
 			dropdown: [
 				{
 					text: 'Sittningslokaler',
@@ -83,4 +83,6 @@
 		{/if}
 	</svelte:fragment>
 </Navbar>
-<slot />
+<div class="container mx-auto p-2">
+	<slot />
+</div>
