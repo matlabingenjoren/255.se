@@ -10,12 +10,6 @@
   const navbarItems: NavbarItem[] = [
     {
       title: {
-        text: 'Sittningslokaler',
-        href: '/sittningslokaler',
-      },
-    },
-    {
-      title: {
         text: 'Lore',
       },
       dropdown: [
@@ -31,8 +25,27 @@
     },
     {
       title: {
-        text: 'Röstsystem',
-        href: '/röstsystem',
+        text: 'Bra att ha',
+      },
+      dropdown: [
+        {
+          text: 'Sittningslokaler',
+          href: '/sittningslokaler',
+        },
+        {
+          text: 'Röstsystem',
+          href: '/röstsystem',
+        },
+        {
+          text: 'Hårddisk',
+          href: '/hårddisk',
+        },
+      ],
+    },
+    {
+      title: {
+        text: 'Sittningslokaler',
+        href: '/sittningslokaler',
       },
     },
   ]
