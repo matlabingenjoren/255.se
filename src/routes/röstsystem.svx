@@ -1,0 +1,55 @@
+# Röstsystem
+
+Här är en lista på bra (och dåliga röstsystem).
+
+## Single Elimination
+
+Vanlig [Single Elimination](https://en.wikipedia.org/wiki/Single-elimination_tournament)-turnering där varje match avgörs genom handuppräckning. Vid lika antal röster kan slant singlas, allternativt tas röstningen om tills dess ett avgörande resultat erhålls.
+
+## Double Elimination
+
+Vanlig [Double Elimination](https://en.wikipedia.org/wiki/Double-elimination_tournament)-turnering där varje match avgörs genom handuppräckning. Vid lika antal röster kan slant singlas, allternativt tas röstningen om tills dess ett avgörande resultat erhålls.
+
+## Enkel överförbar röst (Single Transferable Vote)
+
+Vanlig [Enkel överförbar röst](https://en.wikipedia.org/wiki/Single_transferable_vote) där varje röstberättigad markerar första- andra- och tredjehandsval på en valsedel. En jury bestående av minst två personer tolkar alla röster.
+
+## Handuppräckning
+
+Först definieras en lem. Därefter beslutas på lämpligt vis (förslagsvis genom [STV](#enkel-överförbar-röst-single-transferable-vote)) hur många lemar varje person maximalt har att rösta med under hela processen. Varje lem motsvarar en röst. Näst beslutas på lämpligt vis huruvida flera lemmar ska kunna läggas på samma alternativ. Därefter läses alternativen upp i turordning så de röstberättigande kan sträcka upp en eller flera lemmar för att markera en röst på motsvarande alternativ. Det alternativ med flest röster vinner. Vid lika antal röster kan slant singlas, allternativt tas röstningen om tills dess ett avgörande resultat erhålls.
+
+## Handuppräckning à la Davelni
+
+Alla alternativ börjar med noll röster. Antalet röster ett alternativ har bevaras mellan varje omgång. I början av varje omgång gäller röstning med handuppräckning (varje röstberättigad får maximalt två röster som kan läggas på samma eller olika alternativ). Därefter stryks i första omgången en röst från alla alternativ. De alternativ som i detta läge har ett negativt antal röster förkastas. Därefter inleds nästa röstningsomgång då två röster stryks efter handuppräckningen. Generellt stryks _n_ röster i omgång _n_. Då endast ett alternatv återstår har detta vunnit. Om inget alternativ återstår rullas det senaste förkastningen tillbaks och det alternativ som i detta läge har flest röster vinner. Vid lika antal röster kan slant singlas, alternativt tas sista röstningsomgången om tills dess ett avgörande resultat erhålls.
+
+## XOR
+
+Vanlig [Single Elimination](https://en.wikipedia.org/wiki/Single-elimination_tournament)-turnering där varje match avgörs på följande vis: En oberoende person vänder ryggen mot alla röstberättigade. De röstberättigande kan under denna period röra en eller två händer från och till uppsträckt läge. Vid ett osignalerat ögonblick vänder sig den den oberoende personen tillbaks mot de röstberättigade, varpå dessa måste förbli stilla (likt i leken ett-två-tre-rött-ljus!). Därefter tas handvis XOR (En uppsträckt hand motsvarar 1, övriga handlägen 0). Är resultatet av denna opertion 1 vinner det första alternativet matchen, annars vinner det andra.
+
+## Schrödingers röstsystem
+
+Alla röstberättigade skriver sitt alternativ på en bit papper som viks och samlas in. Papprena rivs därefter sönder och slängs, och det första alternativet vinner.
+
+## Hästkapplöpning
+
+Man finner en inspelad hästkapplöpning på internet. Därefter röstar man genom [handuppräckning](#handuppräckning) om vilken häst som ska tilldelas alternativ ett. Sedan röstar man igenom genom handuppräckning om vilken kvarvarande häst som ska tilldelas alternativ två och så vidare tills dess alla alternativ motsvarar en häst. Därefter spelar man upp hästkapplöpningen och det alternativ vars häst kommer först i mål vinner.
+
+## Kamelskönhetstävlig
+
+Samma som [hästkapplöpning](#hästkapplöpning), men substituera häst&rarr;kamel, hästkapplöpning&rarr;kamelskönhetstävlning och "kommer först i mål"&rarr;"vinner skönhetstävlningen".
+
+## USA
+
+Församlingen får skrika ut varje alternativ. Det som ljuder starkast vinner.
+
+## Sverige
+
+Konsensus måste råda. Man tar hänsy till minoriteter och alla närvarande måste stödja det alternativ man väljer.
+
+## Våldsmonopol
+
+Den som är starkast vinner. Förslagsvis försöker man bära varandra ur salen tills dess endast en person finns kvar i rummet. Denna person får all makt att besluta.
+
+## Game of Life
+
+Varje alternativ tilldelas ett unikt heltal större eller lika med 0 och mindre än _N_ där _N_ är antalet alternativ. Varje röstberättigad person fyller i ett kvadratiskt [Conway's Game of Life](https://sv.wikipedia.org/wiki/Game_of_Life)-bräde, förslagsvis med sidlängd fyra. Alla sådana bräden kombineras sedan till ett initialivillkor för Game of Life genom rutvis XOR. Initialvillkoret bäddas sedan in i ett oändligt stort Game of Life-bräde och simuleras i tre tidssteg. Avslutningsvis räknas antalet levande rutor modulo _N_, och det alternativ som motsvarar det resulterande talet vinner.

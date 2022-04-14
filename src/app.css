@@ -17,25 +17,4 @@
     font-weight: bold;
     font-style: normal;
   }
-
-  h1 {
-    @apply text-3xl;
-    @apply font-bold;
-    @apply mt-6;
-    @apply mb-6;
-  }
-
-  p {
-    @apply mt-4;
-    @apply mb-4;
-  }
-
-  blockquote {
-    @apply mt-4;
-    @apply mb-4;
-    @apply pl-4;
-    @apply pr-4;
-    @apply bg-gray-100;
-    @apply text-gray-800;
-  }
 }

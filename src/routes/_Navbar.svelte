@@ -1,14 +1,16 @@
 <script lang="ts">
-  import '$lib/replace'
   import { slide } from 'svelte/transition'
 
-  type T = $$Generic
+  type Title = $$Generic
+  type Dropdown = $$Generic
+  type Item = { title: Title; dropdown?: Dropdown }
+  type SlotProps = Item & { setExpanded(value: boolean): void }
   type $$Slots = {
-    title: { item: T }
-    dropdown: { item: T }
+    title: SlotProps
+    dropdown: SlotProps
   }
 
-  export let items: T[] = []
+  export let items: Item[] = []
   export let selected: number[] = []
   export let expanded = false
 
@@ -41,7 +43,7 @@
 
   function setSelected(i: number, value: boolean) {
     const idx = selected.indexOf(i)
-    if (idx < 0 && value) {
+    if (idx < 0 && value && items[i]?.dropdown !== undefined) {
       if (lgScreen) {
         selected = [i]
       } else {
@@ -57,13 +59,15 @@
     setSelected(i, !selected.includes(i))
   }
 
-  function toggleExpanded() {
-    if (expanded) {
-      expanded = false
-    } else {
+  function setExpanded(value: boolean) {
+    expanded = value
+    if (value) {
       selected = []
-      expanded = true
     }
+  }
+
+  function toggleExpanded() {
+    setExpanded(!expanded)
   }
 </script>
 
@@ -100,7 +104,7 @@
           >
             <div on:click={() => !lgScreen && toggleSelected(i)} class="cursor-pointer group font-pixel font-bold">
               <div class="w-fit" bind:this={titles[i]}>
-                <slot name="title" {item} />
+                <slot name="title" {...item} {setExpanded} />
                 <div
                   class={`h-1 bg-gray-300 lg:bg-gray-400 ${
                     selected.includes(i) ? 'w-full' : 'w-0'
@@ -112,7 +116,7 @@
             <div class="w-0 h-0 overflow-hidden absolute invisible">
               <div style={`max-width: ${navWidth}px`} class="absolute w-max" bind:this={dropdowns[i]}>
                 <div class="lg:m-3 pl-2 bg-gray-100 lg:p-2">
-                  <slot name="dropdown" {item} />
+                  <slot name="dropdown" {...item} {setExpanded} />
                 </div>
               </div>
             </div>
@@ -123,7 +127,7 @@
                 transition:slide
               >
                 <div class="lg:m-3 pl-2 bg-gray-100 lg:p-2">
-                  <slot name="dropdown" {item} />
+                  <slot name="dropdown" {...item} {setExpanded} />
                 </div>
               </div>
             {/if}
