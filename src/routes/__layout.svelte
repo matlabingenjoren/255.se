@@ -14,6 +14,10 @@
       },
       dropdown: [
         {
+          text: 'Ankeboter',
+          href: '/ankeboter',
+        },
+        {
           text: 'Krönikor',
           href: '/krönikor',
         },
@@ -137,6 +141,7 @@
   }
 
   #content :global(blockquote) {
+    @apply overflow-auto;
     @apply mt-4;
     @apply mb-4;
     @apply pl-4;

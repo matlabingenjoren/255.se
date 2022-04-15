@@ -3,12 +3,6 @@
 	import Image from '$lib/Image.svelte';
 </script>
 
-<style>
-  blockquote {
-    @apply overflow-auto;
-  }
-</style>
-
 # Phaddergruppen 255
 
 Denna hemsida tillhör phaddergruppen 255 på [F-sektionen](https://ftek.se) vid Chalmers tekniska högskola. Vill du läsa mer om oss kan du exempel göra det här, annars sväng förbi [KINSLS](https://maps.chalmers.se/#4c1f9fa6-f421-4a20-b6cf-adf2e01c44b8) på lunchen så sitter vi där!
