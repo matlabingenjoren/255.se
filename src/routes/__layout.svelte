@@ -62,15 +62,17 @@
     </svelte:fragment>
     <svelte:fragment slot="dropdown" let:dropdown let:setExpanded>
       {#if dropdown}
-        <ul>
+        <ul class="text-lg">
           {#each dropdown as subitem}
-            <li><a href={subitem.href} on:click={() => setExpanded(false)}>{subitem.text}</a></li>
+            <li>
+              <a class="hover:underline" href={subitem.href} on:click={() => setExpanded(false)}>{subitem.text}</a>
+            </li>
           {/each}
         </ul>
       {/if}
     </svelte:fragment>
   </Navbar>
-  <div id="content" class="container mx-auto p-2 pb-8 flex-grow">
+  <div id="content" class="container mx-auto p-2 pb-8 lg:pl-0 lg:pr-0 flex-grow">
     <slot />
   </div>
   <Footer />
@@ -141,5 +143,6 @@
     @apply pr-4;
     @apply bg-gray-100;
     @apply text-gray-800;
+    @apply rounded;
   }
 </style>

@@ -115,7 +115,9 @@
             <!-- This is a dummy element used to get the width of the dropdown content -->
             <div class="w-0 h-0 overflow-hidden absolute invisible">
               <div style={`max-width: ${navWidth}px`} class="absolute w-max" bind:this={dropdowns[i]}>
-                <div class="lg:m-3 pl-2 bg-gray-100 lg:p-2">
+                <div
+                  class="lg:m-3 pl-2 bg-gray-100 lg:p-4 shadow-none lg:shadow-lg lg:before:content-[''] lg:before:w-4 lg:before:h-4 lg:before:absolute lg:before:top-2 lg:before:left-1/2 lg:before:bg-gray-100 lg:before:rotate-45 lg:before:-translate-x-1/2 lg:before:-z-10"
+                >
                   <slot name="dropdown" {...item} {setExpanded} />
                 </div>
               </div>
@@ -126,7 +128,9 @@
                 class="lg:absolute lg:z-10"
                 transition:slide
               >
-                <div class="lg:m-3 pl-2 bg-gray-100 lg:p-2">
+                <div
+                  class="lg:m-3 pl-2 bg-gray-100 lg:p-4 shadow-none lg:shadow-lg lg:before:content-[''] lg:before:w-4 lg:before:h-4 lg:before:absolute lg:before:top-2 lg:before:left-1/2 lg:before:bg-gray-100 lg:before:rotate-45 lg:before:-translate-x-1/2 lg:before:-z-10"
+                >
                   <slot name="dropdown" {...item} {setExpanded} />
                 </div>
               </div>

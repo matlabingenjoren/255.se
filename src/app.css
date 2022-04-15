@@ -17,4 +17,8 @@
     font-weight: bold;
     font-style: normal;
   }
+
+  .font-pixel * {
+    letter-spacing: -0.15em;
+  }
 }
