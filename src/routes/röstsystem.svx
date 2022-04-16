@@ -1,4 +1,9 @@
-# Röstsystem
+---
+title: Röstningssytem
+keywords: filmkväll
+---
+
+# {title}
 
 Här är en lista på bra (och dåliga) röstsystem.
 

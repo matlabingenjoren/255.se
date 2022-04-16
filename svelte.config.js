@@ -42,6 +42,9 @@ const config = {
   // for more information about preprocessors
   preprocess: [
     mdsvex({
+      layout: {
+        _: './src/lib/MDLayout.svelte',
+      },
       smartypants: {
         quotes: false,
         dashes: 'oldschool',

@@ -1,5 +1,8 @@
 {
   "svelte.enable-ts-plugin": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "files.associations": { "*.svx": "markdown" }
+  "files.associations": {
+    "*.svx": "markdown"
+  },
+  "editor.formatOnSave": true
 }

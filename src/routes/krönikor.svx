@@ -1,4 +1,9 @@
-# Krönikor
+---
+title: Krönikor
+keywords: historia
+---
+
+# {title}
 
 Kortare redogörelser för 255:s moderna historia.
 

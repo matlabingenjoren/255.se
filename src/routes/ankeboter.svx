@@ -1,4 +1,9 @@
-# Ankeboter
+---
+title: Ankeboter
+keywords: anekdoter historia
+---
+
+# {title}
 
 Några ankeboter (anekdoter) med varierande sanningsgrad samt förklaringar av vanligt förekommande ord och förkortninar.
 
@@ -45,7 +50,7 @@ Däremot skulle det kunna finnas en häst. Som vi erfar i denna [dokumentär](ht
 > 18 juni 1976 invigdes Pripps bryggerianläggning i Västra Frölunda. I sitt hyllningstal erinrade dåvarande kårordföranden om Chalmersaktien och uppmanade Pripps VD, Kurt Rydé, att åtgärda problemet. Han lovade på stående fot att bilda ett gemensamt bolag tillsammans med Chalmers Studentkår för fortsatt samarbete. 1 mars 1977 hölls konstituerande stämma i AB Fest-is, som då fick det nya namnet Aktiebolaget Ölbruket i Göteborg. Bolaget fick som uppgift att främja goda ölseder och gott ölbruk samt att vidareutveckla pipelineförbindelsen mellan Pripps och Chalmers.
 >
 > Sedan aktieförvärvet 1959 har Chalmers Studentkår krävt att det ska byggas en pipeline för öl mellan Chalmers kårhus och dåvarande Pripps. Anledningen är att man vill säkerställa en kontinuerlig leverans av färskt öl. Byggandet har skett stegvis i etapper och idag kan an beskåda pipelinen i gamla Pripps lagerlokalers, på Geniknölen utanför kårhuset och i tapphallen på Carlsbergs bryggeri i Falkenberg. Under åren har pipelinen även dykt upp på en del märkliga platser runt om i Göteborg, såsom Nya Ullevi, Bergakungens biograf, Götatunneln, Slottsskogen och Aeroseum.
-> 
+>
 > -- [Föreningen Ölbruket](https://sites.google.com/olbruket.se/sve/historia)
 
 ## 19 ton øhl
@@ -63,7 +68,7 @@ Däremot skulle det kunna finnas en häst. Som vi erfar i denna [dokumentär](ht
 ## Emil och Emilia
 
 > Som de flesta möjligtvis vet är Emil ett smeknamn för de manliga studenter vid Chalmers, men vet ni vem som gav upphov till detta namn? Håll lugn, vi i Tofsen ska se till att ni kan briljera såväl vid middagsbordet som under Gasquens sena timmar. Emil Santén var en skojig herre som blev känd redan tidigt under sina studier. I Tofsen Nr 2 1973 står det i Emils dödsruna att »Hans fruntimmerstycke var känt, varför andra teknologer, som begav sig ut på staden för att göra bekantskaper med det motsatta könet, gärna begagnade sig av hans namn. Detta för att komma på bättre fot med damerna, bland vilka Emil redan var ett känt begrepp». Tofsen hävdar sedan i dödsrunan att detta är ursprunget till att manliga chalmerister kallas Emil.
-> 
+>
 > -- [Tofsen](https://tofsen.se/vilka-var-emil-och-olga-och-varfor-hade-hamnen-19-ton-ol-till-chalmers/)
 
 ## 255:s ordbok
