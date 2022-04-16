@@ -85,71 +85,80 @@
 </div>
 
 <style lang="postcss">
-  #content :global(a) {
-    @apply underline;
-    @apply text-gray-800;
-  }
+  #content {
+    :global(a) {
+      @apply underline;
+      @apply text-gray-800;
+    }
 
-  #content :global(h1) {
-    @apply text-3xl;
-    @apply font-bold;
-    @apply mt-6;
-    @apply mb-6;
-  }
+    :global(h1) {
+      @apply text-3xl;
+      @apply font-bold;
+      @apply mt-6;
+      @apply mb-6;
+    }
 
-  #content :global(h2) {
-    @apply text-2xl;
-    @apply font-bold;
-    @apply mt-4;
-    @apply mb-4;
-  }
+    :global(h1) {
+      @apply text-3xl;
+      @apply font-bold;
+      @apply mt-6;
+      @apply mb-6;
+    }
 
-  #content :global(p) {
-    @apply mt-4;
-    @apply mb-4;
-  }
+    :global(h2) {
+      @apply text-2xl;
+      @apply font-bold;
+      @apply mt-4;
+      @apply mb-4;
+    }
 
-  #content :global(ul) {
-    @apply list-disc;
-  }
+    :global(p) {
+      @apply mt-4;
+      @apply mb-4;
+    }
 
-  #content :global(ol),
-  #content :global(ul) {
-    @apply pl-8;
-  }
+    :global(ul) {
+      @apply list-disc;
+    }
 
-  #content :global(ol) {
-    @apply list-decimal;
-  }
+    :global(ol),
+    :global(ul) {
+      @apply pl-8;
+    }
 
-  #content :global(ol ol) {
-    @apply list-lower-latin;
-  }
+    :global(ol) {
+      @apply list-decimal;
+    }
 
-  #content :global(table) {
-    @apply overflow-x-auto;
-    @apply block;
-    @apply mx-auto;
-  }
+    :global(ol ol) {
+      @apply list-lower-latin;
+    }
 
-  #content :global(table) :global(tbody) :global(tr:nth-of-type(2n - 1)) {
-    @apply bg-gray-100;
-  }
+    :global(table) {
+      @apply overflow-x-auto;
+      @apply block;
+      @apply mx-auto;
+    }
 
-  #content :global(td),
-  #content :global(th) {
-    text-align: inherit;
-    @apply p-2;
-  }
+    :global(table) :global(tbody) :global(tr:nth-of-type(2n - 1)) {
+      @apply bg-gray-100;
+    }
 
-  #content :global(blockquote) {
-    @apply overflow-auto;
-    @apply mt-4;
-    @apply mb-4;
-    @apply pl-4;
-    @apply pr-4;
-    @apply bg-gray-100;
-    @apply text-gray-800;
-    @apply rounded;
+    :global(td),
+    :global(th) {
+      text-align: inherit;
+      @apply p-2;
+    }
+
+    :global(blockquote) {
+      @apply overflow-auto;
+      @apply mt-4;
+      @apply mb-4;
+      @apply pl-4;
+      @apply pr-4;
+      @apply bg-gray-100;
+      @apply text-gray-800;
+      @apply rounded;
+    }
   }
 </style>

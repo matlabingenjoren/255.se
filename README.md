@@ -1,6 +1,14 @@
 # 255.se
 
-Website of the 255 Community at Chalmers university of Technology, Sweden. Powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Website of the 255 Community at Chalmers university of Technology, Sweden.
+
+## Technologies
+
+- [Svelte](https://svelte.dev/)
+- [Sveltekit](https://kit.svelte.dev/)
+- [MDsveX](https://mdsvex.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind](https://tailwindcss.com/)
 
 ## Developing
 
