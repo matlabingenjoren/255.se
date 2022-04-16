@@ -76,7 +76,7 @@
   <div class="lg:container lg:mx-auto lg:flex">
     <div class="flex items-center lg:flex-grow">
       <div class="flex-grow m-2 lg:ml-0 font-pixel font-bold">
-        <a href="/">
+        <a href="/" sveltekit:prefetch>
           <span class="text-5xl">255</span><span class="text-2xl">.se</span>
         </a>
       </div>
