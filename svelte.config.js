@@ -52,7 +52,7 @@ const config = {
     }),
     preprocess({
       postcss: true,
-      replace: [['tailwindcss.config', JSON.stringify(resolveConfig(twConfig))]],
+      replace: [[/tailwindcss\.config/g, JSON.stringify(resolveConfig(twConfig))]],
     }),
   ],
 
@@ -66,6 +66,9 @@ const config = {
           extendOutputFormats: (defaults) => ({ ...defaults, Image: imageFormat }),
         }),
       ],
+    },
+    prerender: {
+      default: true,
     },
   },
 }

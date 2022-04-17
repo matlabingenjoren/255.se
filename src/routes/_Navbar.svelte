@@ -14,9 +14,8 @@
   export let selected: number[] = []
   export let expanded = false
 
-  const theme = tailwindcss.config.theme
-  const transDuration = Number(theme.transitionDuration?.DEFAULT?.slice(0, -2)) || 0
-  const lg = Number(theme.screens?.lg?.slice(0, -2)) || 0
+  const transDuration = Number(tailwindcss.config.theme.transitionDuration?.DEFAULT?.slice(0, -2)) || 0
+  const lg = Number(tailwindcss.config.theme.screens?.lg?.slice(0, -2)) || 0
 
   let windowWidth = 0
   let lgScreen: boolean
