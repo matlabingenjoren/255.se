@@ -5,16 +5,32 @@
 
 # Phaddergruppen 255
 
-Denna hemsida tillhör phaddergruppen 255 på [F-sektionen](https://ftek.se) vid Chalmers tekniska högskola. Vill du läsa mer om oss kan du exempel göra det här, annars sväng förbi [KINSLS](https://maps.chalmers.se/#4c1f9fa6-f421-4a20-b6cf-adf2e01c44b8) på lunchen så sitter vi där!
+Denna hemsida tillhör phaddergruppen 255 på [F-sektionen](https://ftek.se) vid Chalmers tekniska högskola. Vill du läsa
+mer om oss kan du exempel göra det här, annars sväng förbi
+[KINSLS](https://maps.chalmers.se/#4c1f9fa6-f421-4a20-b6cf-adf2e01c44b8) på lunchen så sitter vi där!
 
 <Image src={img} class="w-full lg:w-[40%] float-right ml-4 mb-4" />
 
-Varje år ombildas phaddergruppen och tar emot nya de nya medlemmar som vi blir tilldelade av [FnollK](https://ftek.se/fnollk), sektionens mottagningskommitté. FnollK delar in medlemmar i olika phaddergrupper (det finns totalt i storleksordningen tio phaddergrupper på F-sektionen) baserat på ett formulär som skickas ut till de blivande studenterna innan mottagningen. Gränserna mellan phaddergrupperna efter mottagningen är lite flytande, men det finns många båda nyantagna och gamla studenter, doktorander och utexaminerade som tillhör 255:s gemenskap.
+Varje år ombildas phaddergruppen och tar emot nya de nya medlemmar som vi blir tilldelade av
+[FnollK](https://ftek.se/fnollk), sektionens mottagningskommitté. FnollK delar in medlemmar i olika phaddergrupper (det
+finns totalt i storleksordningen tio phaddergrupper på F-sektionen) baserat på ett formulär som skickas ut till de
+blivande studenterna innan mottagningen. Gränserna mellan phaddergrupperna efter mottagningen är lite flytande, men det
+finns många båda nyantagna och gamla studenter, doktorander och utexaminerade som tillhör 255:s gemenskap.
 
-> I DD knattrar fingrar energiskt över härdade tangentbord. Samma fingrar kan lika lätt söka sig längs med ett instrument i färd med att forma tonerna till ännu en fantastisk melodi. En siluett reser sig, darrig, redo att gå ut på scen. Både ljuset och mörkret välkomnar. Andra sätter sig framför ett tomt ark och skapar i sinnet mer eller mindre absurda alster. Några finner rätt stigar i skog och mark och lurar lömska träsk. Vissa beger sig till fjärran platser långt bortom horisonten.
+> I DD knattrar fingrar energiskt över härdade tangentbord. Samma fingrar kan lika lätt söka sig längs med ett
+> instrument i färd med att forma tonerna till ännu en fantastisk melodi. En siluett reser sig, darrig, redo att gå ut
+> på scen. Både ljuset och mörkret välkomnar. Andra sätter sig framför ett tomt ark och skapar i sinnet mer eller mindre
+> absurda alster. Några finner rätt stigar i skog och mark och lurar lömska träsk. Vissa beger sig till fjärran platser
+> långt bortom horisonten.
 >
 > -- Malin Renneby
 
 ## Lite historia
 
-Kumla-Frasse som var med när phaddergruppen startades har följande att berätta: 255 bildades inför mottagningen år 2003. Konventionellt har phaddergrupperna på F haft nummer till namn, och talet 255 valdes för att det representeras hexadecimalt som `FF`. FF är också förkortningen för sektionens tidning, [FinForm](https://ftek.se/finform). Alla som var med och startade phaddergruppen var inte med i Finforms redaktion, men det var ett stort överlapp. Kumla-Frasse har inte sparat någon av de ursprungliga beskrivningarna som skrevs om phaddergruppen, men drar sig till minnes att ord som brädspel, poesi och nördkultur nämdes i nollmodulen. Genom gemensamma vännder och kulturella likheter kom 255 att redan från starten stå nära 42:an, en annan phaddergrupp på F-sektionen.
+Kumla-Frasse som var med när phaddergruppen startades har följande att berätta: 255 bildades inför mottagningen år 2003.
+Konventionellt har phaddergrupperna på F haft nummer till namn, och talet 255 valdes för att det representeras
+hexadecimalt som `FF`. FF är också förkortningen för sektionens tidning, [FinForm](https://ftek.se/finform). Alla som
+var med och startade phaddergruppen var inte med i Finforms redaktion, men det var ett stort överlapp. Kumla-Frasse har
+inte sparat någon av de ursprungliga beskrivningarna som skrevs om phaddergruppen, men drar sig till minnes att ord som
+brädspel, poesi och nördkultur nämdes i nollmodulen. Genom gemensamma vännder och kulturella likheter kom 255 att redan
+från starten stå nära 42:an, en annan phaddergrupp på F-sektionen.

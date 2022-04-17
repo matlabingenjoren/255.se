@@ -9,47 +9,77 @@ Kortare redogörelser för 255:s moderna historia.
 
 ## 2016/2017
 
-Efter den inledande programmeringskursen i Java utvecklar Potatis spelet Terminal-Warlock med hjälp av bl.a. Davelni. R2 har bakat kaka på kaka som han bjuder på. Till 25:e i 5:e-sittningen leder R2 den något tidspressade utvecklingen av ett text-baserat rollspel som spelas under kvällen. Man finner då stort nöje i att hitta cykliska vägar innuti spelet.
+Efter den inledande programmeringskursen i Java utvecklar Potatis spelet Terminal-Warlock med hjälp av bl.a. Davelni. R2
+har bakat kaka på kaka som han bjuder på. Till 25:e i 5:e-sittningen leder R2 den något tidspressade utvecklingen av ett
+text-baserat rollspel som spelas under kvällen. Man finner då stort nöje i att hitta cykliska vägar innuti spelet.
 
 Källa: Potatis, R2
 
 ## 2017/2018
 
-Många luncher spenderas i KINSLS. Ett återkommade samtalsämne är definitioner av olika object, t.ex. diskuteras lämpliga sätt att definiera en soppa. Potatis fortsätter utveckla Terminal-Warlock, och spelet spelas flera gånger på lunchen. Detta år bildas också en Discord-guild, till en början främst för intern kommunikation mellan några av 255:s medlemar, men under kommande år kommer fler och fler 255:or bli medlemmar i guilden.
+Många luncher spenderas i KINSLS. Ett återkommade samtalsämne är definitioner av olika object, t.ex. diskuteras lämpliga
+sätt att definiera en soppa. Potatis fortsätter utveckla Terminal-Warlock, och spelet spelas flera gånger på lunchen.
+Detta år bildas också en Discord-guild, till en början främst för intern kommunikation mellan några av 255:s medlemar,
+men under kommande år kommer fler och fler 255:or bli medlemmar i guilden.
 
 255 bidrar med två frågor till FnollK:s självdeklaration som nollan fyller i innan mottagningen:
 
 1. 1. Hur länge kan du lyssna på någon som pratar om sitt favoritämne?
-   2. Vad skulle svaret på föregående fråga vara givet att ämnet är brunnslock?
+   1. Vad skulle svaret på föregående fråga vara givet att ämnet är brunnslock?
 1. Du kommer till en dator utan mus. Vad gör du?
 
-Bland annat eftersom många 255:or var medlemmar i [F-spexet](https://f-spexet.se) och/eller [Barocken](https://chalmersbarockensemble.se/) beskrev phaddergruppen sig själv som extroverta introverter.
+Bland annat eftersom många 255:or var medlemmar i [F-spexet](https://f-spexet.se) och/eller
+[Barocken](https://chalmersbarockensemble.se/) beskrev phaddergruppen sig själv som extroverta introverter.
 
 Källa: Λαyωt
 
 ## 2018/2019
 
-På nollans första dag framförs gückel om ordvitsar i GD. Traditionsenligt avslutas dagen med brädspel i Signes. Många äldre 255:or är med i barocken, och Holt lånas några gånger under året för sittning. Senare under året går även några yngre 255:or med i Barocken. Vanligtvis kommer 10-15 personer till lunch, och ofta samlas några efter maten för att spela datorspel, bl.a. Terminal-Warlock, WC3 och OpenArena. Några nollan är intresserade av lingvistik, vilket även vissa phaddrar visar sig vara. Vi lever upp till självdeklarationsfrågorna genom att prata om brunnslock, riskok i tvättmaskiner och fortsätter de redan påbörjade diskussionerna om krigståg. Främst R2 anordnar några filmkvällar under året då kalkonfilm är vanligast förekommande. Regelbundna spelkvällar hålls i Kyrakan tillsammans med phaddergruppen polynomnom (eller vad de nu heter) från KfKb-sektionen. Efter varje läsperiod äts Efter-Tenta-Pizza (ETP).
+På nollans första dag framförs gückel om ordvitsar i GD. Traditionsenligt avslutas dagen med brädspel i Signes. Många
+äldre 255:or är med i barocken, och Holt lånas några gånger under året för sittning. Senare under året går även några
+yngre 255:or med i Barocken. Vanligtvis kommer 10-15 personer till lunch, och ofta samlas några efter maten för att
+spela datorspel, bl.a. Terminal-Warlock, WC3 och OpenArena. Några nollan är intresserade av lingvistik, vilket även
+vissa phaddrar visar sig vara. Vi lever upp till självdeklarationsfrågorna genom att prata om brunnslock, riskok i
+tvättmaskiner och fortsätter de redan påbörjade diskussionerna om krigståg. Främst R2 anordnar några filmkvällar under
+året då kalkonfilm är vanligast förekommande. Regelbundna spelkvällar hålls i Kyrakan tillsammans med phaddergruppen
+polynomnom (eller vad de nu heter) från KfKb-sektionen. Efter varje läsperiod äts Efter-Tenta-Pizza (ETP).
 
 Källa: Dancis
 
 ## 2019/2020
 
-Första-dagen gücklet görs om till ett röst-baserat äventyrsspel. Phaddergruppen förtsätter ha regelbundna luncher i KINSLS: Vi pratar om möbler (är en tavla en möbel?), mackor, m.m. Man samlas för att se Doctor Who tillsammans. Veckan innan tentaveckan i LP3 slår corona till och alla tentor blir hastit och i varierande grad av lustighet till distanstentor. 25:e i 5:e sittningen hålls på kårens Minecraft-server. Potatis gjorde en inspelning av detta evenemang som bl.a. innehåller ett efter omständigheterna bra försök att sjunga livet över Discord: Discord-servern blir för övrigt mycket mer aktiv under detta år, möjligen som en konsekvens av corona, och fortsätter vara aktiv även åren efter coronans uttåg.
+Första-dagen gücklet görs om till ett röst-baserat äventyrsspel. Phaddergruppen förtsätter ha regelbundna luncher i
+KINSLS: Vi pratar om möbler (är en tavla en möbel?), mackor, m.m. Man samlas för att se Doctor Who tillsammans. Veckan
+innan tentaveckan i LP3 slår corona till och alla tentor blir hastit och i varierande grad av lustighet till
+distanstentor. 25:e i 5:e sittningen hålls på kårens Minecraft-server. Potatis gjorde en inspelning av detta evenemang
+som bl.a. innehåller ett efter omständigheterna bra försök att sjunga livet över Discord: Discord-servern blir för
+övrigt mycket mer aktiv under detta år, möjligen som en konsekvens av corona, och fortsätter vara aktiv även åren efter
+coronans uttåg.
 
 Källa: Dancis
 
 ## 2020/2021
 
-Till allas förvåning hålls mottagningen i person (dock får inte fulphaddrar närvara, ens/särskilt inte under sittningar), men därefter stängs campus ned och hela året hålls all undervisning på distans. Snart hålls dock vecovisa lunchträffar i Discord, och på lördagarna speas diverse datorspel: 5D-chess with multiverse timetravel, Dwarfheim, och Space Station 13. Filmkvällar hålls på distans. Potatis hostar en Minecraft-server med modpacket Feed-The-Beast och en stor del av 255 strömmar till. Till och med urgamble Gustav frekventerar servern och delar med sig av sina livs- och modpacks-erfarenheter. Nollan håller en mycket ambitiös tacksittning på samma server där de bl.a. mycket trovärdigt återskapat Holt (efter att endast ha upplevt rummet en gång i mycket trött tillstånd för nästan ett år sedan). På 25:e i 5:e ses vi dock ansikte mot ansikte när vi grillar i regnet på Origogården och spelar brädspel i Signes.
+Till allas förvåning hålls mottagningen i person (dock får inte fulphaddrar närvara, ens/särskilt inte under
+sittningar), men därefter stängs campus ned och hela året hålls all undervisning på distans. Snart hålls dock vecovisa
+lunchträffar i Discord, och på lördagarna speas diverse datorspel: 5D-chess with multiverse timetravel, Dwarfheim, och
+Space Station 13. Filmkvällar hålls på distans. Potatis hostar en Minecraft-server med modpacket Feed-The-Beast och en
+stor del av 255 strömmar till. Till och med urgamble Gustav frekventerar servern och delar med sig av sina livs- och
+modpacks-erfarenheter. Nollan håller en mycket ambitiös tacksittning på samma server där de bl.a. mycket trovärdigt
+återskapat Holt (efter att endast ha upplevt rummet en gång i mycket trött tillstånd för nästan ett år sedan). På 25:e i
+5:e ses vi dock ansikte mot ansikte när vi grillar i regnet på Origogården och spelar brädspel i Signes.
 
-Några månader innan mottagningen hade Dancis lagt märke till att den tidigare ägaren av domänen [255.se](https://255.se) inte förnyat sitt köp. Därför blev domänen ledig några veckor in på mottagningen, och Dancis köpte domänen samma dag.
+Några månader innan mottagningen hade Dancis lagt märke till att den tidigare ägaren av domänen [255.se](https://255.se)
+inte förnyat sitt köp. Därför blev domänen ledig några veckor in på mottagningen, och Dancis köpte domänen samma dag.
 
 Källa: Dancis
 
 ## 2021/2022
 
-Efter att föreläsningarna under LP1 varit på distans återvänder utbildningen till Campus. Luncherna i KINSLS återupptas, likaså ETP-traditionen. Dancis anordnar filmkvällar på fredagarna som även 42:an bjuds in till. Under första halvåret ses "bra" film varannan vecka och "dålig" film övriga veckor. Efter nyåret stryks dock denna regel, och alla filmer godtas varje vecka. Exempel på filmer som setts är
+Efter att föreläsningarna under LP1 varit på distans återvänder utbildningen till Campus. Luncherna i KINSLS återupptas,
+likaså ETP-traditionen. Dancis anordnar filmkvällar på fredagarna som även 42:an bjuds in till. Under första halvåret
+ses "bra" film varannan vecka och "dålig" film övriga veckor. Efter nyåret stryks dock denna regel, och alla filmer
+godtas varje vecka. Exempel på filmer som setts är
 
 - The Room
 - Who Killed Captain Alex?
@@ -67,11 +97,24 @@ Efter att föreläsningarna under LP1 varit på distans återvänder utbildninge
 - Det våras för rymden
 - Örnnästet
 
-Samt många fler. Ett glatt minne är när Gustav skrev upp filmen [Koyaanisqatsi](https://en.wikipedia.org/wiki/Koyaanisqatsi) som sedan lyckades vinna mot 20 andra filmer i en _single-elimination bracket_ (filmernas handling förklarades först efter att de röstats ut). Ingen förutom Gustav visste vad det var för film...
+Samt många fler. Ett glatt minne är när Gustav skrev upp filmen
+[Koyaanisqatsi](https://en.wikipedia.org/wiki/Koyaanisqatsi) som sedan lyckades vinna mot 20 andra filmer i en
+_single-elimination bracket_ (filmernas handling förklarades först efter att de röstats ut). Ingen förutom Gustav visste
+vad det var för film...
 
-Flera intressanta röstsystem har provats under dessa filmkvällar, allt från våldsmonopol (det slutade med att alla stridande parter lyckades låsa ute sig själva från salen) till [Game of Life](/röstsystem). Moms kom ofta dit mer av intresse för röstsystemen än för själva filmerna (han gick ibland efter röstningen), och ledde om han fick välja helst en omröstning med [Enkel överförbar röst](https://sv.wikipedia.org/wiki/Enkel_%C3%B6verf%C3%B6rbar_r%C3%B6st). Under filmkvällarna har också andra intressanta områden diskuterats, som t.ex. skillnader och likheter mellan balkar och rep, och huruvida trä borde armeras. Bönmannen bjöd även ofta med vänner från Hvitfeldtska gymnasiet och andra som ville följa med. En filmkväll med många deltagare avslutades med att sällskapets delades i tu mellan de som gick vidare till DuP:en, och de som gick till KINSLS och spelade kortspelet Ergo.
+Flera intressanta röstsystem har provats under dessa filmkvällar, allt från våldsmonopol (det slutade med att alla
+stridande parter lyckades låsa ute sig själva från salen) till [Game of Life](/röstsystem). Moms kom ofta dit mer av
+intresse för röstsystemen än för själva filmerna (han gick ibland efter röstningen), och ledde om han fick välja helst
+en omröstning med [Enkel överförbar röst](https://sv.wikipedia.org/wiki/Enkel_%C3%B6verf%C3%B6rbar_r%C3%B6st). Under
+filmkvällarna har också andra intressanta områden diskuterats, som t.ex. skillnader och likheter mellan balkar och rep,
+och huruvida trä borde armeras. Bönmannen bjöd även ofta med vänner från Hvitfeldtska gymnasiet och andra som ville
+följa med. En filmkväll med många deltagare avslutades med att sällskapets delades i tu mellan de som gick vidare till
+DuP:en, och de som gick till KINSLS och spelade kortspelet Ergo.
 
-Metrecon ordnade också brädspelskvällar i Focus eller Singes på lördagskvällarna, då vi spelade favoriter som Twister-Blokus och Monopol med tärnings-bias så att man oftast gick baklänges. Vi slog även världsrekord i sockerkaks-speedrun (Metrecon har video). Tiden stannade på 8:23 (ca.) från fraplockade ingredienser till ätbar sockerkaka. Den var förvånansvärt god och vi bjöd förbipasserade folk i natten.
+Metrecon ordnade också brädspelskvällar i Focus eller Singes på lördagskvällarna, då vi spelade favoriter som
+Twister-Blokus och Monopol med tärnings-bias så att man oftast gick baklänges. Vi slog även världsrekord i
+sockerkaks-speedrun (Metrecon har video). Tiden stannade på 8:23 (ca.) från fraplockade ingredienser till ätbar
+sockerkaka. Den var förvånansvärt god och vi bjöd förbipasserade folk i natten.
 
 F:s IT-förening [Spidera](https://ftek.se/spidera) består till majoriteten av 255:or.
 
