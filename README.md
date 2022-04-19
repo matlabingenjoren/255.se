@@ -5,7 +5,7 @@ Website of the 255 Community at Chalmers university of Technology, Sweden.
 ## Technologies
 
 - [Svelte](https://svelte.dev/)
-- [Sveltekit](https://kit.svelte.dev/)
+- [SvelteKit](https://kit.svelte.dev/)
 - [MDsveX](https://mdsvex.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind](https://tailwindcss.com/)
