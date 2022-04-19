@@ -19,9 +19,9 @@ WORKDIR /usr/src/app
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-COPY package*.json ./
+COPY package*.json .
 
-COPY --from=builder /usr/src/app/build ./
+COPY --from=builder /usr/src/app/build build
 
 RUN npm ci --only=production --ignore-scripts
 
