@@ -1,4 +1,4 @@
-FROM node:16 AS builder
+FROM node:16.14.2-buster AS builder
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -11,7 +11,7 @@ RUN npm install
 RUN npm run build
 
 
-FROM node:16
+FROM node:16.14.2-buster
 
 # Create app directory
 WORKDIR /usr/src/app
