@@ -26,6 +26,7 @@
 
   let navWidth = 0
   let titles: HTMLElement[] = []
+  let titlesWidth: number[] = []
   let dropdowns: HTMLElement[] = []
   let lefts: number[] = []
   $: for (let i = 0; i < items.length; i++) {
@@ -36,7 +37,7 @@
     const dropdownBox = dropdowns[i].getBoundingClientRect()
     const titleBox = titles[i].getBoundingClientRect()
 
-    const preferredL = titleBox.x + (titleBox.width - dropdownBox.width) / 2
+    const preferredL = titleBox.x + (titlesWidth[i] - dropdownBox.width) / 2
     lefts[i] = Math.max(0, Math.min(preferredL, navWidth - dropdownBox.width))
   }
 
@@ -71,7 +72,7 @@
 </script>
 
 <svelte:window bind:innerWidth={windowWidth} />
-<nav class="bg-gray-300 lg:relative" bind:clientWidth={navWidth}>
+<nav class="bg-gray-300 relative" bind:clientWidth={navWidth}>
   <div class="lg:container lg:mx-auto lg:flex">
     <div class="flex items-center lg:flex-grow">
       <div class="flex-grow m-2 lg:ml-0 font-pixel font-bold">
@@ -102,7 +103,7 @@
             on:mouseleave={() => lgScreen && setSelected(i, false)}
           >
             <div on:click={() => !lgScreen && toggleSelected(i)} class="cursor-pointer group font-pixel font-bold">
-              <div class="w-fit" bind:this={titles[i]}>
+              <div class="w-fit" bind:this={titles[i]} bind:clientWidth={titlesWidth[i]}>
                 <slot name="title" {...item} {setExpanded} />
                 <div
                   class={`h-1 bg-gray-300 lg:bg-gray-400 ${
@@ -112,7 +113,7 @@
               </div>
             </div>
             <!-- This is a dummy element used to get the width of the dropdown content -->
-            <div class="w-0 h-0 overflow-hidden absolute invisible">
+            <div class="absolute invisible">
               <div style={`max-width: ${navWidth}px`} class="absolute w-max" bind:this={dropdowns[i]}>
                 <div
                   class="lg:m-3 pl-2 bg-gray-100 lg:p-4 shadow-none lg:shadow-lg lg:before:content-[''] lg:before:w-4 lg:before:h-4 lg:before:absolute lg:before:top-2 lg:before:left-1/2 lg:before:bg-gray-100 lg:before:rotate-45 lg:before:-translate-x-1/2 lg:before:-z-10"
