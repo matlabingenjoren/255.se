@@ -2,6 +2,13 @@ name: Deploy
 
 on:
   workflow_call:
+    secrets:
+      DOCKERHUB_USERNAME:
+        description: Docker Hub username
+        required: true
+      DOCKERHUB_TOKEN:
+        description: Docker Hub access token
+        required: true
 
 jobs:
   deploy:
