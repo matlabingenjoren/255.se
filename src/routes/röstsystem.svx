@@ -27,7 +27,7 @@ första- andra- och tredjehandsval på en valsedel. En jury bestående av minst 
 ## Handuppräckning
 
 Först definieras en lem. Därefter beslutas på lämpligt vis (förslagsvis genom
-[STV](#enkel-överförbar-röst-single-transferable-vote)) hur många lemar varje person maximalt har att rösta med under
+[STV](#enkel-överförbar-röst-single-transferable-vote)) hur många lemmar varje person maximalt har att rösta med under
 hela processen. Varje lem motsvarar en röst. Näst beslutas på lämpligt vis huruvida flera lemmar ska kunna läggas på
 samma alternativ. Därefter läses alternativen upp i turordning så de röstberättigande kan sträcka upp en eller flera
 lemmar för att markera en röst på motsvarande alternativ. Det alternativ med flest röster vinner. Vid lika antal röster
