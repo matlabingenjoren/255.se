@@ -5,7 +5,7 @@ keywords: anekdoter historia
 
 # {title}
 
-Några ankeboter (anekdoter) med varierande sanningsgrad samt förklaringar av vanligt förekommande ord och förkortninar.
+Några ankeboter (anekdoter) med varierande sanningsgrad samt förklaringar av vanligt förekommande ord och förkortningar.
 
 ## Olgas trappor
 
@@ -90,6 +90,9 @@ mycket känslig.
 >
 > -- [Föreningen Ölbruket](https://sites.google.com/olbruket.se/sve/historia)
 
+I samma veva som Pripps invigde bryggerianläggningen i Västra Frölunda kom vörtpannan till kåren. Vörtpannan är en del
+av en kopparkittel från Pripps gama bryggerier som idag befinner sig innanför kårhusets entré från Teknologgården.
+
 ## 19 ton øhl
 
 > Den 4 augusti 1980 gick ett telefonsamtal till Chalmers Studentkår till enligt följande:  
@@ -109,17 +112,25 @@ mycket känslig.
 
 ## Emil och Emilia
 
-> Som de flesta möjligtvis vet är Emil ett smeknamn för de manliga studenter vid Chalmers, men vet ni vem som gav upphov
-> till detta namn? Håll lugn, vi i Tofsen ska se till att ni kan briljera såväl vid middagsbordet som under Gasquens
-> sena timmar. Emil Santén var en skojig herre som blev känd redan tidigt under sina studier. I Tofsen Nr 2 1973 står
-> det i Emils dödsruna att »Hans fruntimmerstycke var känt, varför andra teknologer, som begav sig ut på staden för att
-> göra bekantskaper med det motsatta könet, gärna begagnade sig av hans namn. Detta för att komma på bättre fot med
-> damerna, bland vilka Emil redan var ett känt begrepp». Tofsen hävdar sedan i dödsrunan att detta är ursprunget till
-> att manliga chalmerister kallas Emil.
+Emil och Emilia är namn för samtilga manliga respektive kvinnliga chalmerister.
+
+> Emil Santén var en skojig herre som blev känd redan tidigt under sina studier. I Tofsen Nr 2 1973 står det i Emils
+> dödsruna att »Hans fruntimmerstycke var känt, varför andra teknologer, som begav sig ut på staden för att göra
+> bekantskaper med det motsatta könet, gärna begagnade sig av hans namn. Detta för att komma på bättre fot med damerna,
+> bland vilka Emil redan var ett känt begrepp». Tofsen hävdar sedan i dödsrunan att detta är ursprunget till att manliga
+> chalmerister kallas Emil.
 >
 > -- [Tofsen](https://tofsen.se/vilka-var-emil-och-olga-och-varfor-hade-hamnen-19-ton-ol-till-chalmers/)
 
-## 255:s ordbok
+## Omskyltning
+
+> Under mottagningen 1974 passade några E-Nollan på att ändra skyltningen vid infarterna till Göteborg, genom att byta
+> ut "Göteborg" till "Ankeborg". Detta ledde bland annat till att Göteborgs Turistinformations växel brakade ihop då
+> många utländska turister inte längre kunde följa kartorna...
+>
+> -- [HØK-16](http://www.nollk.se/wp-content/uploads/2016/07/H0K-16.pdf)
+
+# 255:s ordbok
 
 **KINSLS** Förkortning för Kan Inte Nollan Sluta Labba Snart? Beskriver två datorsalar på våning 7 i fysikforskarhuset.
 KINSLS brukar också inkludera lunchrummet KINSLS-torget som ligger utanför salarna. Som nollan tycker man inte alls att
