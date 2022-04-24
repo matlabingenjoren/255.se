@@ -6,6 +6,7 @@ import path from 'path'
 import resolveConfig from 'tailwindcss/resolveConfig.js'
 import twConfig from './tailwind.config.cjs'
 import { doSync } from 'do-sync'
+import rehypeSlug from 'rehype-slug'
 
 /** @type {import('vite-imagetools').OutputFormat} */
 const imageFormat = () => (metadatas) => {
@@ -49,6 +50,7 @@ const config = {
         quotes: false,
         dashes: 'oldschool',
       },
+      rehypePlugins: [rehypeSlug],
     }),
     preprocess({
       postcss: true,
