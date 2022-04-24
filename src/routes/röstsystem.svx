@@ -5,7 +5,7 @@ keywords: filmkväll
 
 # {title}
 
-Här är en lista på bra (och dåliga) röstsystem.
+Här är en lista på beprövade bra (och dåliga) röstsystem.
 
 ## Single Elimination
 
@@ -69,18 +69,31 @@ hästkapplöpningen och det alternativ vars häst kommer först i mål vinner.
 Samma som [hästkapplöpning](#hästkapplöpning), men substituera häst&rarr;kamel,
 hästkapplöpning&rarr;kamelskönhetstävlning och "kommer först i mål"&rarr;"vinner skönhetstävlningen".
 
-## USA
+## [USA](https://en.wikipedia.org/wiki/Voice_vote#United_States)
 
-Församlingen får skrika ut varje alternativ. Det som ljuder starkast vinner.
+Församlingen får skrika ut varje alternativ. De som ljuder starkast vinner.
+
+## USA 2016
+
+Röstberättigade kan utnämna sig själva till elektorer och avstår därigenom rätten att rösta. Röstberättigade som ej är
+elektorer väljer genom [handuppräckning](#handuppräckning) ut en elektor. Denna elektor får sedan full makt att bestämma
+vilket alternativ som vinner. Om alla röstberättigade utser sig själva till elektorer börjar röstningen om från början
+tills dess åtmindstone en av de röstberättigade inte utser sig själv till elektor.
 
 ## Sverige
 
-Konsensus måste råda. Man tar hänsy till minoriteter och alla närvarande måste stödja det alternativ man väljer.
+Konsensus måste råda. Man tar hänsyn till minoriteter och alla närvarande måste stödja det alternativ man väljer.
 
 ## Våldsmonopol
 
 Den som är starkast vinner. Förslagsvis försöker man bära varandra ur salen tills dess endast en person finns kvar i
 rummet. Denna person får all makt att besluta.
+
+## Monopol
+
+De röstberättigade bildar lag utifrån vilket alternativ de föredrar. Därefter spelar dessa lag brädspelet
+[Monopol](<https://sv.wikipedia.org/wiki/Monopol_(spel)>) mot varandra och det vinnande lagets alternativ är
+omröstningens vinnare.
 
 ## Game of Life
 
@@ -90,3 +103,14 @@ Varje röstberättigad person fyller i ett kvadratiskt
 bräden kombineras sedan till ett initialivillkor för Game of Life genom rutvis XOR. Initialvillkoret bäddas sedan in i
 ett oändligt stort Game of Life-bräde och simuleras i tre tidssteg. Avslutningsvis räknas antalet levande rutor modulo
 _N_, och det alternativ som motsvarar det resulterande talet vinner.
+
+## Tarot
+
+Man tager en tarotkortlek som clensas på så många vis församlingen känner till och rimligtvis kan genomföra. Därefter
+frågar man för varje alternativ korten följande tre frågor:
+
+1. Vad kommer alternativet ha för konsekvenser?
+1. Vad kommer vi tycka om alternativet?
+1. Vad kommer mänskligheten i stort tycka om alternativet?
+
+Därefter väljs utifrån svaret på dessa frågor ett alternativ med hjälp av röstsystemet [Sverige](#sverige).
