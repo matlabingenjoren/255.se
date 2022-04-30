@@ -22,6 +22,10 @@
           href: '/krönikor',
         },
         {
+          text: 'Sångverser',
+          href: '/verser',
+        },
+        {
           text: 'Gamla sidan',
           href: '/gamla-sidan.html',
         },
@@ -110,6 +114,13 @@
       @apply font-bold;
       @apply mt-4;
       @apply mb-4;
+    }
+
+    :global(h3) {
+      @apply text-xl;
+      @apply font-bold;
+      @apply mt-2;
+      @apply mb-2;
     }
 
     :global(p) {
