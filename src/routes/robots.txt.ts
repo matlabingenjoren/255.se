@@ -10,7 +10,6 @@ export const get: RequestHandler = async (event) => {
     },
     body: `
 User-agent: *
-Disallow: /hårddisk
 Disallow: /h%C3%A5rddisk
 
 Sitemap: ${origin}/sitemap.xml

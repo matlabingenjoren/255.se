@@ -29,12 +29,12 @@ export const get: RequestHandler = async (event) => {
           <priority>0.8</priority>
         </url>
         <url>
-          <loc>${origin}/krönikor</loc>
+          <loc>${origin}/kr%C3%B6nikor</loc>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
         </url>
         <url>
-          <loc>${origin}/röstsystem</loc>
+          <loc>${origin}/r%C3%B6stsystem</loc>
           <changefreq>monthly</changefreq>
           <priority>0.5</priority>
         </url>
