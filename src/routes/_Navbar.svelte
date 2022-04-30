@@ -108,7 +108,7 @@
                 <div
                   class={`h-1 bg-gray-300 lg:bg-gray-400 ${
                     selected.includes(i) ? 'w-full' : 'w-0'
-                  } group-hover:w-full transition-[width] m-auto`}
+                  } md:group-hover:w-full transition-[width] m-auto`}
                 />
               </div>
             </div>
