@@ -11,7 +11,7 @@ export const get: RequestHandler = async (event) => {
   return {
     headers: {
       'Cache-Control': 'max-age=3600',
-      'Content-Type': 'application/xml',
+      'Content-Type': 'application/xml; charset=utf-8',
     },
     body: html`
       <?xml version="1.0" encoding="UTF-8" ?>

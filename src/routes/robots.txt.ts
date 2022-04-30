@@ -6,7 +6,7 @@ export const get: RequestHandler = async (event) => {
   return {
     headers: {
       'Cache-Control': 'max-age=3600',
-      'Content-Type': 'text/plain',
+      'Content-Type': 'text/plain; charset=utf-8',
     },
     body: `
 User-agent: *
