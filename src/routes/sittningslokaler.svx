@@ -24,3 +24,11 @@ Lista över några sittningslokaler på och i omgivningen av Chalmers.
 | [Röda rummet](https://www.atek.chalmers.se/sektionen/kommitteer/puba/) |     | 40     | 2022       | A-sektionens pub.                                                                                                                                                               |
 | [Zaloonen](http://www.ztek.se/zaloonen/)                               | Ja  |        | 2022       | Z:s sektionslokal. Möjlig att boka för icke-Z-teknologer, även om man rekommenderas att prova andra lokaler först.                                                              |
 | [Holt](https://www.chalmersbarockensemble.se/kontakt.html)             | Ja  | 50     | 2022       | Barockens replokal. En i sällskapet måste vara medlem i Barocken och är ansvarig. Alla barockare måste vara välkommna på sittningen.                                            |
+| Kalle Glader                                                           |     |        | 2022       | Endast för hyresgäster hos Chalmers Studentbostäder. Hör med [kåren](mailto:ha@chalmersstudentkar.se)                                                                           |
+
+## Lokaler för större sittningar
+
+| Namn                                                                                         | Uppdaterad | Kommentar                                                                                                                                                                  |
+| -------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Betonghallen                                                                                 | 2022       | [Hall i SB-huset](https://maps.chalmers.se/#f3bd4ff7-2237-4fb0-96fd-66cb91e96815). Oklart hur bokning går till, hör med [salsbokningen](mailto:salsbokningen@chalmers.se)? |
+| [Kårrestaurangen](https://chalmerskonferens.se/sv/restauranger/johanneberg/karrestaurangen/) | 2022       |                                                                                                                                                                            |
