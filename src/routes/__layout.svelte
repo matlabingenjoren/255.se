@@ -37,10 +37,6 @@
       },
       dropdown: [
         {
-          text: 'Sittningslokaler',
-          href: '/sittningslokaler',
-        },
-        {
           text: 'Röstsystem',
           href: '/röstsystem',
         },
