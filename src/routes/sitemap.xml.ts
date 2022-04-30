@@ -1,7 +1,8 @@
 import type { RequestHandler } from '@sveltejs/kit'
 
 // Provides formatting of template strings
-const html = (str: TemplateStringsArray, ...args: any[]) => String.raw({ raw: str }, ...args)
+const html = (str: TemplateStringsArray, ...args: Parameters<typeof String.raw>[1][]) =>
+  String.raw({ raw: str }, ...args)
 
 export const get: RequestHandler = async (event) => {
   const origin = event.url.origin
