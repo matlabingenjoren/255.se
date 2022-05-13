@@ -166,11 +166,6 @@ Rent formellt har kåren fortfarande inte erkännt upplösningen av unionen med 
 > kunde uppbåda tillräckligt med sinne för humor, vilket skulle möjliggöra ett beslut om försäljning av en (1) aktie
 > till Chalmers Studentkår.men då detta inte gjorde något intressant försökte man istället med
 
-```bash
-yes > fil &
-disown
-```
-
 > 18 juni 1976 invigdes Pripps bryggerianläggning i Västra Frölunda. I sitt hyllningstal erinrade dåvarande
 > kårordföranden om Chalmersaktien och uppmanade Pripps VD, Kurt Rydé, att åtgärda problemet. Han lovade på stående fot
 > att bilda ett gemensamt bolag tillsammans med Chalmers Studentkår för fortsatt samarbete. 1 mars 1977 hölls
