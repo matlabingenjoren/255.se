@@ -35,6 +35,28 @@ tillstånd att sätta upp en flaggstång fick man nej då det finns regler för 
 Man kom då på idén att måla flaggstången svart och kalla den för fanstång, ty fanstänger finns det inga regler för.
 Därför är det ingen svart flaggstång på fysikhusets tak, utan en fanstång.
 
+## Finger
+
+Linuxkommandot [`finger`](https://linux.die.net/man/1/finger) visar information om en användare, och en 255:a bestämda
+sig för att göra en lek av detta genom att ränka antalet gånger någon kört `finger` mot dennes användare och visa
+resultatet i en scoreboard. Snart hade flera personer startat skript som loopade `finger` för att komma högst upp på
+scoreboarden. När det närmade sig tentaperioden bestämde sig en annan 255:a för att prokrastinera genom att försöka ta
+topplatsen i `finger`-listan, men hur skulle det gå till? Försprånget de andra tävlande hade var mycket stort. Han
+började med en vanlig loop, startad i [`screen`](https://linux.die.net/man/1/screen) så att skritet inte skulle dö när
+man loggade ut. Dock fungerade detta inte alltid, och skriptet dog ändå efter ett tag. Hur löser man detta problem? Jo,
+skriptet kör sin loop, men efter ett tag startar det en kopia av sig själv på en annan dator så att det alltid finns
+minst en skriptinstans körande. Man inser dock snabbt efter att ha startat igång ett sådant skript att detta
+tillvägagångssätt leder till exponentiell tillväxt av antalet körande processer -- en
+[forkbomb](https://en.wikipedia.org/wiki/Fork_bomb). Hela denna olycka hade orsakats medans upphovspersonen var
+fjärransluten till skoldatorerna i DD, och denne upptäckte inte att något var fel förrän fjärrsessionen plötsligt bröts.
+Han försökte då fjärransluta till andra datorer i samma datorsal utan att lyckas. Nu hade vår 255:a en tanke om vad som
+hade hänt och sprang så in till campus för att se datorerna i person. I dörren möter han en phadder som säger att
+datorerna i DD är nere. Anledningen till att vår 255:a fick [dumvästen](https://ftek.se/dumvast/) var att han på detta
+svarade "Jag vet!".
+
+Till minne av denna episod komponerades [en vers till sången Solen](/verser#solen). Det finns även en förklaring till
+raden "I morgon gör jag likadant" men det är en annan historia.
+
 ## Kopparbunken
 
 Kopparbunken är ett gammalt högspänningslabb (idag finns där en klätervägg) som ligger i det sydöstra hörnet av Campus.
@@ -42,6 +64,31 @@ Då studenterna vid elektro- och data-sektionerna fick höra att byggnaden skull
 beslutet om K-märkning skulle fattas till kopparbunken och målade dit Quarl Anka och Hacke Hackspett, sektionshelgon för
 respektive sektion. Dagen efter K-märktes byggnaden med Quarl och Hacke på. Därför går de nu inte att ta bort dessa
 bilder eftersom de måste bevaras tillsammans med resten av huset.
+
+## Linuxintro
+
+Då 255:an Von som nollan gick på en av sina linuxintro-labbar i KINSLS dök labbhandledaren inte upp. Handledaren var
+känd för att vara ganska krånglig och obrydd. Men då ställde sig Von, som redan var bekant med linux, spontant upp och
+tog över föreläsningen och räddade labben. Efter denna dag lobbade kursutvärderarna för att Von skulle få fortsätta som
+labbhandledare nästa år, vilket han fick.
+
+Under linuxintron ett annat år ville en annan 255-nolla lära sig om bakrundsjobb och redirects så provade därför
+kommandot
+
+```bash
+nohup yes > fil
+```
+
+men ingenting intressant verkade hända. Efter ett tag började dock datorn bli lite trög, så nollan tänkte logga in och
+logga ut igen. Efter en mycket utdragen utloggningsanimering försökte nollan logga in igen, men varje tecken tar lång
+tid att skriva. Efter ett tag kommer labbhandledarna och gör en norsk omstart.
+
+Möjligtvis inspirerat av dessa två episoder infördes under några år en bonusfråga i linuxintron, tänkt för att de som
+redan hade ett gott grepp om linux inte skulle behöva sitta igenom den annars obligatoriska introduktionen. Frågan var
+formulerad som att förklara vad ett kommando gör. Kommandot i frågan var en obfuskerad
+[forkbomb](https://en.wikipedia.org/wiki/Fork_bomb), så att om någon obetänksam student som inte visste mycket om linux
+försökte köra programmet för att se vad det gjorde skulle dennes dator dö en död som påkallade labbhandledarnas
+uppmärksamhet.
 
 ## Olgas trappor
 
@@ -117,8 +164,13 @@ Rent formellt har kåren fortfarande inte erkännt upplösningen av unionen med 
 > (sedemera 75%) fick alla aktieägare utom staten och PRIBO/Beijer "maka på sig" och en hemställan till dåvarande
 > finansministern Gunnar Sträng från Chalmers Studentkår avvisades. Han trodde inte att ledamöterna i Sveriges Riksdag
 > kunde uppbåda tillräckligt med sinne för humor, vilket skulle möjliggöra ett beslut om försäljning av en (1) aktie
-> till Chalmers Studentkår.
->
+> till Chalmers Studentkår.men då detta inte gjorde något intressant försökte man istället med
+
+```bash
+yes > fil &
+disown
+```
+
 > 18 juni 1976 invigdes Pripps bryggerianläggning i Västra Frölunda. I sitt hyllningstal erinrade dåvarande
 > kårordföranden om Chalmersaktien och uppmanade Pripps VD, Kurt Rydé, att åtgärda problemet. Han lovade på stående fot
 > att bilda ett gemensamt bolag tillsammans med Chalmers Studentkår för fortsatt samarbete. 1 mars 1977 hölls
