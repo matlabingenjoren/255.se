@@ -66,8 +66,10 @@ hästkapplöpningen och det alternativ vars häst kommer först i mål vinner.
 
 ## Kamelskönhetstävlig
 
-Samma som [hästkapplöpning](#hästkapplöpning), men substituera häst&rarr;kamel,
-hästkapplöpning&rarr;kamelskönhetstävlning och "kommer först i mål"&rarr;"vinner skönhetstävlningen".
+Man finner ett lika antal distinkta bilder på kameler, och tilldelar genom [handuppräckning](#handuppräckning) varje
+valbart alternativ till en kamel. Därefter beger man sig ut i allmännheten och ber folk välja den vackraste kamelen.
+Efter att man samlat in ett förutbestämt antal röster välljs sedan det alternativ som motsvarar den kamel som fått flest
+allmänna röster.
 
 ## [USA](https://en.wikipedia.org/wiki/Voice_vote#United_States)
 
@@ -114,3 +116,13 @@ frågar man för varje alternativ korten följande tre frågor:
 1. Vad kommer mänskligheten i stort tycka om alternativet?
 
 Därefter väljs utifrån svaret på dessa frågor ett alternativ med hjälp av röstsystemet [Sverige](#sverige).
+
+## Examinatorsutlåtande
+
+Med något annat här omnämnt röstsystem väljs en kontaktbar examinator ut. Man mejlar så alla alternativ till denna
+examinator som får full makt att bestämma utfallet av valet
+
+## r/teenagers
+
+Alla alternativ postas på [r/teenagers](https://www.reddit.com/r/teenagers/) och den första kommentar som utväljer ett
+primärt alternativ används för att utse vinnaren av omröstningen.
