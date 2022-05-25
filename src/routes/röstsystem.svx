@@ -126,3 +126,12 @@ examinator som får full makt att bestämma utfallet av valet
 
 Alla alternativ postas på [r/teenagers](https://www.reddit.com/r/teenagers/) och den första kommentar som utväljer ett
 primärt alternativ används för att utse vinnaren av omröstningen.
+
+## Battle of Wits
+
+Röstberättigade kan nominera sig själva till snille. Alla röstberättigade väjer sedan genom
+[handuppräckning](#handuppräckning) vem av de nominerade som ska vara snillet. Snillet skriver sedan varje alternativ på
+exakt en bit papper per alternativ så att det finns en bijektion mellan lapparna och alternativen. Snillet placerar
+sedan lapparna på ett bord vända så att det inte går att se vilken lapp som hör till vilket alternativ, och pekar sedan,
+utan att behöva vara ärlig, ut vilken lapp som motsvarar vilket alternativ. Övriga i försmaligen väljer sedan genom
+[handuppräckning](#handuppräckning) ut en lapp, och det alternativ som står på lappen vinner.
