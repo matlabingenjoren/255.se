@@ -31,7 +31,7 @@ OP Om blott jag får, om blott
 
 ## Gamla punchvisan (kall)
 
-Cubsec kommer Cobsec kommer  
+Cubsec kommer Cubsec kommer  
 Arg och sur  
 [Cubsec ska va' sur!]  
 Nollan glömde stänga dörren  
@@ -40,3 +40,33 @@ Nu igen
 Nollan måste lära  
 (sig) stänga varje dörr  
 Då kommer dörren aldrig pipa mer
+
+## Systeme Internationale
+
+### Systeme Imperiale
+
+(Sjungs i moll)
+
+hk lb mi Wb Q  
+℧ M T A ac fm gon  
+Cd Erg Rad lbf/min  
+℧ A in lx Np tjog  
+°F BTU  
+ft lbf/lb H V Fr  
+ctr oz/kbl³ gross  
+barl./jiffy²  
+barl./jiffy²  
+F!
+
+_övrs:_
+
+_hästkrafter pund mile weber kvartal_  
+_mho sjömil tesla ampere tunnland famn gon_  
+_candela erg rad pund kraft minut_  
+_mho ampere tun lux neper tjog_  
+_grader fahrenheit brittisk termisk enhet_  
+_fot pund kraft per pund henry volt franklin_  
+_centner uns per kubik kabel gross_  
+_barleycorn per jiffy kvadrat_  
+_barleycorn per jiffy kvadrat_  
+_farad!_
