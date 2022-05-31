@@ -117,7 +117,9 @@ sockerkaks-speedrun (Metrecon har video). Tiden stannade på 8:23 (ca.) från fr
 sockerkaka. Den var förvånansvärt god och vi bjöd förbipasserade folk i natten.
 
 Vi tittar på cortégen tillsammans och grillar efterråt i sektionens kundvagnsburna grill. Dock brinner både kolet och
-själva grillen, och vi släcker den senare med vattenflaskor. Efteråt spelas brädspel i Signes.
+själva grillen, och vi släcker den senare med vattenflaskor. Efteråt spelas brädspel i Signes. Till 25/5 skrivs ett
+[text-baserat äventyrsspel](https://github.com/OssianEriksson/text-based) och sittningsdeltagarna får rösta om vilka val
+som ska göras i spelet.
 
 F:s IT-förening [Spidera](https://ftek.se/spidera) består till majoriteten av 255:or.
 
