@@ -63,7 +63,7 @@ _övrs:_
 _hästkrafter pund mile weber kvartal_  
 _mho sjömil tesla ampere tunnland famn gon_  
 _candela erg rad pund kraft minut_  
-_mho ampere tun lux neper tjog_  
+_mho ampere tum lux neper tjog_  
 _grader fahrenheit brittisk termisk enhet_  
 _fot pund kraft per pund henry volt franklin_  
 _centner uns per kubik kabel gross_  
