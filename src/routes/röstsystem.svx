@@ -120,7 +120,7 @@ Därefter väljs utifrån svaret på dessa frågor ett alternativ med hjälp av 
 ## Examinatorsutlåtande
 
 Med något annat här omnämnt röstsystem väljs en kontaktbar examinator ut. Man mejlar så alla alternativ till denna
-examinator som får full makt att bestämma utfallet av valet
+examinator som får full makt att bestämma utfallet av valet.
 
 ## r/teenagers
 
