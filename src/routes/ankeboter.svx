@@ -7,6 +7,11 @@ keywords: anekdoter historia
 
 Några ankeboter (anekdoter) med varierande sanningsgrad samt förklaringar av vanligt förekommande ord och förkortningar.
 
+## Chalmers är inte nördigt
+
+Många icke-chalmerister hyser fördomen att Chalmers är nördigt, men bl.a.
+[enligt Dragos själv](https://youtu.be/oOlELEdINb4) är så alltså inte fallet.
+
 ## Det finns ingen häst på Chalmers
 
 Efter mottagningen ska nollan förhoppningsvis kunna hålla med om devisen
@@ -57,6 +62,14 @@ svarade "Jag vet!".
 Till minne av denna episod komponerades [en vers till sången Solen](/verser#solen). Det finns även en förklaring till
 raden "I morgon gör jag likadant" men det är en annan historia.
 
+## Ifrågasättbar orienteringsförmåga
+
+En 255:a bosatt på Olofshöjd visade prov på sin ifrågasättbara orienteringsförmåga genom att varje morgon promenera ned
+till Korsvägen för att därifrån ta spårvagn till Chalmers istället för att promenera den mycket kortare biten direkt
+till campus Johanneberg. Det hela upptäcktes när en annan 255:a följde med vår huvudperson till Willys hemma på Viktor
+Rydbergsgatan där denne brukade handla varpå han plötsligt stannade mitt på gatan och förtvivlat utbrast "Näe, det är
+inte så här nära!"
+
 ## Kopparbunken
 
 Kopparbunken är ett gammalt högspänningslabb (idag finns där en klätervägg) som ligger i det sydöstra hörnet av Campus.
@@ -64,6 +77,21 @@ Då studenterna vid elektro- och data-sektionerna fick höra att byggnaden skull
 beslutet om K-märkning skulle fattas till kopparbunken och målade dit Quarl Anka och Hacke Hackspett, sektionshelgon för
 respektive sektion. Dagen efter K-märktes byggnaden med Quarl och Hacke på. Därför går de nu inte att ta bort dessa
 bilder eftersom de måste bevaras tillsammans med resten av huset.
+
+## Kårhuset
+
+När det nya kårhuset skulle byggas vände sig kåren först till Chalmers för hjälp med finansieringen, men högskolan var
+inte omedelbart redo att skjuta till pengar. Dock erbjöd sig Chalmers att matcha den summa som kåren kunde samla in från
+annat håll. Men i denna överenskommelse fanns inget tak för hur mycket Chalmers kunde bidra med. Kåren ad därför stor
+energi på att kontakta företag, gamla alumner och andra sponsorer som kubde tänka sig bidra till det nya kårhuset. Hur
+mycket som faktiskt samlades in har varit föremål för viss ryktesspridning och olika siffor har cirkulerat, men en ofta
+nämnd summa är 60 miljoner kronor. Chalmers var förtsåeligt nog inte glada över att behöva matcha denna summa men gick
+efter viss förhandling med på att hålla sitt löfte och skjöt till ytterligare 60 miljoner. Med en finansiella grunden
+säkrad kunde kåren bygga det nuvarande kårhuset som sedan dess har varit Sveriges största.
+
+Kårhusets ställning som Sveriges största har dock periodvis varit hotad. Ett tag var det tal om att KTH skulle bygga ut
+sitt gamla kårhus vilket i så fall hade berövat Chalmers kårhus titeln. Men några uppfinningsrika Chalmerister kom då på
+idén att begära att KTH:s gamla kårhus skulle K-märkas, vilket skedde, och därmed kunde KTH inte bygga ut.
 
 ## Linuxintro
 
@@ -111,6 +139,15 @@ Vid en resa till tyskland upptäcktes en gatskylt med texten "Olgastr." (Olgastr
 tillbaks till Chalmers. Där sattes den upp i trapporna som leder ned mod kårhuset. Därför heter trapporna idag Olgas
 trappor.
 
+## Ommöblering
+
+Som ett nolluppdrag köpte en gång ett par studenter en begagnad parkbänk hos parkförvaltningen och börjar bära runt
+bänken på stan. De blir flera gånger stoppade av poliser som tror att bänken är stulen, men eftersom bärarna kan visa
+kvitto för inköpet får de varje gång fortsätta på sin vandring genom staden. För att undvika att mer av polisens tid
+ockuperas av denna företelse går en patrull till slut ut på polisradion med att den grupp av studenter som kånkar på en
+parkbänk redan har kontrollerats och inte ska stoppas. Detta meddelande snappas upp av andra Chalmerister som tar
+tillfället i akt att ge sig ut på stan och bära runt parkbänkar.
+
 ## Omskyltning
 
 > Under mottagningen 1974 passade några E-Nollan på att ändra skyltningen vid infarterna till Göteborg, genom att byta
@@ -118,6 +155,16 @@ trappor.
 > många utländska turister inte längre kunde följa kartorna...
 >
 > -- [HØK-16](http://www.nollk.se/wp-content/uploads/2016/07/H0K-16.pdf)
+
+## Prisma
+
+Då 255:an Anka hade trågigt en eftermiddag tänkte han försöka läras sig PostScript - det programmeringsspråk som används
+på skrivare för att beskriva layout på utskrifter. Anka kände dock inte för att börja med "Hello World", utan bestämde
+sig istället för ett bättre första program: En oändlig loop! För att inte få slut på PQ var Anka klipsk nog att inte
+placera loopen så att utskriften fick oändligt många sidor, utan isället en den del av programmet innan själva
+sidlayouten definieras. När detta skrivarjobb skickades till Chalmers utskriftsystem Prisma låste sig inte bara en
+printer utan hela Prismas utskriftskö och inga fler utskrifter skedde på Chalmers den dagen, samma dag som F hade en
+stor kvantinlämning.
 
 ## Stor inlämning
 
@@ -208,7 +255,7 @@ av en kopparkittel från Pripps gama bryggerier som idag befinner sig innanför 
 >
 > -- [Tofsen](https://tofsen.se/vilka-var-emil-och-olga-och-varfor-hade-hamnen-19-ton-ol-till-chalmers/)
 
-# 255:s ordbok
+# Förkortningsordlista
 
 **DD** Förkortning för Djungel-Data. DD7 är namnet på en samling datorsalar på 7:e våningen i fysikhuset. DD4 är en
 datorsal på våning fyra i fysikhuset, belägen approximativt under DD7. Det är vanligt att 255:or spontant ansamlas i DD7
