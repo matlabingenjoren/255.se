@@ -258,7 +258,8 @@ av en kopparkittel från Pripps gama bryggerier som idag befinner sig innanför 
 # Förkortningsordlista
 
 **DD** Förkortning för Djungel-Data. DD7 är namnet på en samling datorsalar på 7:e våningen i fysikhuset. DD4 är en
-datorsal på våning fyra i fysikhuset, belägen approximativt under DD7. Det är vanligt att 255:or spontant ansamlas i DD7
+datorsal på våning fyra i fysikhuset, belägen approximativt under DD7. Det är vanligt att 255:or spontant ansamlas i
+DD7.
 
 **DuP** Ursprungligen förkortning för Djungel-Pub (Tillstälning som ordnas av [DP](https://ftek.se/dp), F-sektionens
 rustmästeri, varje fredag kl. 17:23 i Focus, F:s sektionslokal). Bland 255:or syftar DuP ofta mer på datorspelkvällen
@@ -270,4 +271,4 @@ med tentaveckans slut. Kombineras ofta med brädspel, datorspel, filmvisning ell
 **KINSLS** Förkortning för Kan Inte Nollan Sluta Labba Snart? Beskriver två datorsalar på våning 7 i fysikforskarhuset.
 KINSLS brukar också inkludera lunchrummet KINSLS-torget som ligger utanför salarna. Som nollan tycker man inte alls att
 man labbar där särskillt ofta, men när man inte är nollan längre är plötsligt nollan alltid där. 255 intar regelbundet
-lunch tillsammans i KINSLS (eller KINSLS-torget), och spelas det datorspel görs det oftast i KINSLS. för att plugga.
+lunch tillsammans i KINSLS (eller KINSLS-torget), och spelas det datorspel görs det oftast i KINSLS.
