@@ -106,15 +106,15 @@
               <div class="w-fit" bind:this={titles[i]} bind:clientWidth={titlesWidth[i]}>
                 <slot name="title" {...item} {setExpanded} />
                 <div
-                  class={`h-1 bg-gray-300 lg:bg-gray-400 ${
-                    selected.includes(i) ? 'w-full' : 'w-0'
-                  } lg:group-hover:w-full transition-[width] m-auto`}
+                  class="h-1 bg-gray-300 lg:bg-gray-400 {selected.includes(i)
+                    ? 'w-full'
+                    : 'w-0'} lg:group-hover:w-full transition-[width] m-auto"
                 />
               </div>
             </div>
             <!-- This is a dummy element used to get the width of the dropdown content -->
             <div class="absolute invisible">
-              <div style={`max-width: ${navWidth}px`} class="absolute w-max" bind:this={dropdowns[i]}>
+              <div style="max-width: {navWidth}px" class="absolute w-max" bind:this={dropdowns[i]}>
                 <div
                   class="lg:m-3 pl-2 bg-gray-100 lg:p-4 shadow-none lg:shadow-lg lg:before:content-[''] lg:before:w-4 lg:before:h-4 lg:before:absolute lg:before:top-2 lg:before:left-1/2 lg:before:bg-gray-100 lg:before:rotate-45 lg:before:-translate-x-1/2 lg:before:-z-10"
                 >
@@ -124,7 +124,7 @@
             </div>
             {#if selected.includes(i)}
               <div
-                style={`max-width: ${navWidth}px; left: ${lefts[i] || 0}px`}
+                style="max-width: {navWidth}px; left: {lefts[i] || 0}px"
                 class="lg:absolute lg:z-10"
                 transition:slide
               >

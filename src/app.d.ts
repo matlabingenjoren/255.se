@@ -9,6 +9,21 @@ declare namespace App {
   // interface Stuff {}
 }
 
+declare module '*&Image' {
+  export type Srcset = { srcset: string; type: string }
+
+  export type Source = {
+    sources: Srcset[]
+    placeholder: string
+    alt: string
+    aspect: number
+  }
+
+  const image: Source
+
+  export default image
+}
+
 type DeepPartial<T> = T extends object ? { [P in keyof T]?: DeepPartial<T[P]> } : T
 
 declare const tailwindcss: {

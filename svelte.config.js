@@ -1,3 +1,5 @@
+/// <reference types="./src/app" />
+
 import adapter from '@sveltejs/adapter-node'
 import preprocess from 'svelte-preprocess'
 import { mdsvex } from 'mdsvex'
@@ -8,8 +10,9 @@ import twConfig from './tailwind.config.cjs'
 import { doSync } from 'do-sync'
 import rehypeSlug from 'rehype-slug'
 
-/** @type {import('vite-imagetools').OutputFormat} */
+/** @type {import('imagetools-core').OutputFormat} */
 const imageFormat = () => (metadatas) => {
+  /** @type {{[format: string]: typeof metadatas[number]}} */
   const formats = {}
   metadatas.forEach((meta) => {
     if (!(meta.format in formats)) {
@@ -18,22 +21,28 @@ const imageFormat = () => (metadatas) => {
     formats[meta.format].push(meta)
   })
 
+  /** @type {import('&Image').Srcset[]} */
   const sources = Object.entries(formats).map(([format, metas]) => ({
     srcset: metas.map((meta) => `${meta.src} ${meta.width}w`).join(', '),
     type: `image/${format}`,
   }))
 
+  /** @type {string} */
   const file = metadatas[0].image.options.input.file
+  /** @type {number} */
+  const aspect = metadatas[0].aspect
   const data = doSync(async (file) => {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     const sharp = require('sharp')
     return (await sharp(file).resize({ width: 20 }).png().toBuffer()).toString('base64')
   })(file)
 
+  /** @type {import('./src/lib/types').Image} */
   return {
     sources,
     placeholder: `data:image/png;base64,${data}`,
     alt: path.parse(file).name,
+    aspect,
   }
 }
 
