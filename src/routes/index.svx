@@ -32,5 +32,5 @@ Konventionellt har phaddergrupperna på F haft nummer till namn, och talet 255 v
 hexadecimalt som `FF`. FF är också förkortningen för sektionens tidning, [FinForm](https://ftek.se/finform). Alla som
 var med och startade phaddergruppen var inte med i Finforms redaktion, men det var ett stort överlapp. Kumla-Frasse har
 inte sparat någon av de ursprungliga beskrivningarna som skrevs om phaddergruppen, men drar sig till minnes att ord som
-brädspel, poesi och nördkultur nämdes i nollmodulen. Genom gemensamma vännder och kulturella likheter kom 255 att redan
+brädspel, poesi och nördkultur nämdes i nollmodulen. Genom gemensamma vänner och kulturella likheter kom 255 att redan
 från starten stå nära 42:an, en annan phaddergrupp på F-sektionen.
