@@ -135,3 +135,9 @@ exakt en bit papper per alternativ så att det finns en bijektion mellan lapparn
 sedan lapparna på ett bord vända så att det inte går att se vilken lapp som hör till vilket alternativ, och pekar sedan,
 utan att behöva vara ärlig, ut vilken lapp som motsvarar vilket alternativ. Övriga i försmaligen väljer sedan genom
 [handuppräckning](#handuppräckning) ut en lapp, och det alternativ som står på lappen vinner.
+
+## Bogovote
+
+Först slumpas en kandidat bland de tillgängliga alternativen. Därefter röstar de röstberättigade genom
+[handuppräckning](#handuppräckning) om denna kandidat ska vinna. Om kandidaten inte får majoritets stöd upprepas hela
+proceduren tills dess att en kandidat vinner.
