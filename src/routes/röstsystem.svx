@@ -136,8 +136,18 @@ sedan lapparna på ett bord vända så att det inte går att se vilken lapp som 
 utan att behöva vara ärlig, ut vilken lapp som motsvarar vilket alternativ. Övriga i försmaligen väljer sedan genom
 [handuppräckning](#handuppräckning) ut en lapp, och det alternativ som står på lappen vinner.
 
+## Rebusar
+
+Varje alternativ översätts av en oberoende part till en rebus. Därefter får den röstberättigade som löser flest rebusar
+på förutbestämd tid all makt att välja. Om flera röstberättigade löser samma antal rebusar används
+[handuppräckning](#handuppräckning) för att avgöra vilket alternativ som vinner.
+
 ## Bogovote
 
 Först slumpas en kandidat bland de tillgängliga alternativen. Därefter röstar de röstberättigade genom
 [handuppräckning](#handuppräckning) om denna kandidat ska vinna. Om kandidaten inte får majoritets stöd upprepas hela
 proceduren tills dess att en kandidat vinner.
+
+## Bogo
+
+[Bogovote](#bogovote) utan vote: Det vinnande alternativet slumpas fram.
