@@ -117,8 +117,10 @@ DuP:en, och de som gick till KINSLS och spelade kortspelet Ergo.
 
 Metrecon ordnade också brädspelskvällar i Focus eller Singes på lördagskvällarna, då vi spelade favoriter som
 Twister-Blokus och Monopol med tärnings-bias så att man oftast gick baklänges. Vi slog även världsrekord i
-sockerkaks-speedrun (Metrecon har video). Tiden stannade på 8:23 (ca.) från framplockade ingredienser till ätbar
-sockerkaka. Den var förvånansvärt god och vi bjöd förbipasserade folk i natten.
+sockerkaks-speedrun (Metrecon har video). Tiden stannade på 13:37 från framplockade ingredienser till ätbar sockerkaka.
+Den var förvånansvärt god och vi bjöd förbipasserade folk i natten. Vi försökte få upp vår prestation på speedrun.com
+genom att införa det som ett sidequest på ett bakspel, men lyckades inte få tag på rätt administratör (d.v.s.
+administatören på det spelet var nog inte aktiv sedan flera år tillbaka).
 
 Vi tittar på cortégen tillsammans och grillar efterråt i sektionens kundvagnsburna grill. Dock brinner både kolet och
 själva grillen, och vi släcker den senare med vattenflaskor. Efteråt spelas brädspel i Signes. Till 25/5 skrivs ett
@@ -126,5 +128,16 @@ själva grillen, och vi släcker den senare med vattenflaskor. Efteråt spelas b
 som ska göras i spelet.
 
 F:s IT-förening [Spidera](https://ftek.se/spidera) består till majoriteten av 255:or.
+
+Källa: Dancis, Metrecon
+
+## 2022/2023
+
+Filmvällarna fortsatte regelbundet på fredagarna. Fler icke-255:or kommer också på dessa, trots att röstsysemen som
+används nu ofta är mer invecklade och tidskrävande (bättre) än förra året. Inte bara 255:or gillar röstsystem verkar det
+som. Under slutet av förra året hade främst Potatis och Bönmannen ordnat några integral-kvällar då man tävlar i att lösa
+så många integraler som möjligt. Dessa kvällar fortsätter förekomma sporadiskt under hösten och får även några spin-offs
+i formen av gränsvärdeskvällar. Matte och mattetävlingar diskuteras ofta vid lunchborden i KINSLS, och inför integral-
+och gränsvärdeskvällarna konstrueras uppgifter för dessa.
 
 Källa: Dancis
