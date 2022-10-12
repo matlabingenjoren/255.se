@@ -118,6 +118,14 @@ formulerad som att förklara vad ett kommando gör. Kommandot i frågan var en o
 försökte köra programmet för att se vad det gjorde skulle dennes dator dö en död som påkallade labbhandledarnas
 uppmärksamhet.
 
+## Nollanstädet
+
+För länge sedan under nollanstädet av [Focus](https://ftek.se/sektionslokal/) under det att sektionslokalen höll på att
+byggas om kunder en 255:a inte hitta lampknappen för att släcka efter sig när städet var klart. Han hittade dock en
+öppen strömbrytare som han stoppade in sin penna i för att komma åt knappen innne i uttaget. Till och med 255:an Gustav
+som var vänd bort såg ljusblixten som följde, men alla var oskadda och ljuset i Focus slocknade, så slutet gott allting
+gott.
+
 ## Olgas trappor
 
 Olga Boberg var städare på Chalmers från 1937, senare portvakt, och känd för att vara vänlig mot studenterna.
