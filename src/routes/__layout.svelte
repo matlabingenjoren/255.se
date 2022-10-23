@@ -40,10 +40,6 @@
           text: 'Röstsystem',
           href: '/röstsystem',
         },
-        {
-          text: 'Hårddisk',
-          href: '/hårddisk',
-        },
       ],
     },
     {

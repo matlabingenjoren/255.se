@@ -7,7 +7,6 @@ const html = (str: TemplateStringsArray, ...args: Parameters<typeof String.raw>[
 export const get: RequestHandler = async (event) => {
   const origin = event.url.origin
 
-  // /hårddisk is deliberately left out of sitemap
   return {
     headers: {
       'Cache-Control': 'max-age=3600',
