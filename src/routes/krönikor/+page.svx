@@ -142,6 +142,8 @@ efter applicering av diverse heuristiker kommer vi fram till loggan som visas ne
 
 <div class="flex justify-center"><Image src={logo2022} class="w-56" /></div>
 
+Loggan visar det komplexa talplanet (enhetscirkeln anger skalan) och en faktorisering av 255 i Gaussiska primtal.
+
 Källa: Dancis, Metrecon
 
 ## 2022/2023
