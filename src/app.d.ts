@@ -16,7 +16,7 @@ declare module '*&Image' {
     sources: Srcset[]
     placeholder: string
     alt: string
-    aspect: number
+    aspect?: number
   }
 
   const image: Source
