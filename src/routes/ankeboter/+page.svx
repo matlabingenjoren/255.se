@@ -7,6 +7,18 @@ keywords: anekdoter historia
 
 Några ankeboter (anekdoter) med varierande sanningsgrad samt förklaringar av vanligt förekommande ord och förkortningar.
 
+## Bokningssystemet
+
+Systemet som användes för att boka [Focus och Hilbert](https://ftek.se/sektionslokal/) var ihopslängt av
+[Spidera](https://ftek.se/spidera) på en eftermiddag. Det bestod av ett Googleformulär som vid inskickning lade till en
+ny rad i ett kalkylark. Ett copy-paste:at skript lyssnade sedan på ändringar i kalkylarket och skickade ut
+bekräftelsemejl m.m. med hjälp av nätmästarens, Spideras ordförandes, google-konto. En dag råkade
+[DP](https://ftek.se/djungelpatrullen/) göra en manuell ändring i kalkylarket som fick formuläret att placera nya rader
+med kolumnerna förskjutna ett steg åt höger. Detta ledde i sin tur till att skriptet (som inte var så bra kodat) började
+mejla ut bekräftelsemejl till alla som någonsin bokat Focus eller Hilbert de senaste tre åren. Dessutom flaggade efter
+några hundra mejl Google detta som spam och blockade nätmästarens, tillika administratören över hela sektionens Google
+workspace, Googlekonto.
+
 ## Chalmers är inte nördigt
 
 Många icke-chalmerister hyser fördomen att Chalmers är nördigt, men bl.a.
@@ -61,6 +73,14 @@ svarade "Jag vet!".
 
 Till minne av denna episod komponerades [en vers till sången Solen](/verser#solen). Det finns även en förklaring till
 raden "I morgon gör jag likadant" men det är en annan historia.
+
+## Förkylningsrisk
+
+En dag fick [Chalmers barockensemble](https://www.chalmersbarockensemble.se/) en förfrågan: Kunde de med mindre än en
+måndas varsel tänka sig att spela fyra timmar utomhus i ruskig höst på ett lastbilsflak fyllt med vatten som del av en
+musikvideoinspelning? Ensemblen försäkrades att allt var under kontroll. Att instrument och vatten inte går bra ihop
+behövde man inte oroa sig för, och mellan tagningarna skulle man kunna värma sig runt en brasa i ett oljefat. Dock
+avböjde ensemblen om inte annat med hänvisning till den föreslagna betalningen samt risken för förkylning.
 
 ## Ifrågasättbar orienteringsförmåga
 

@@ -76,12 +76,13 @@
   <div class="lg:container lg:mx-auto lg:flex">
     <div class="flex items-center lg:flex-grow">
       <div class="flex-grow m-2 lg:ml-0 font-pixel font-bold">
-        <a href="/" sveltekit:prefetch>
+        <a href="/">
           <span class="text-5xl">255</span><span class="text-2xl">.se</span>
         </a>
       </div>
       <svg
         on:click={toggleExpanded}
+        role="presentation"
         class="w-6 m-4 lg:mr-0 cursor-pointer lg:hidden"
         version="1.1"
         viewBox="0 0 5 5"
@@ -102,7 +103,11 @@
             on:mouseenter={() => lgScreen && setSelected(i, true)}
             on:mouseleave={() => lgScreen && setSelected(i, false)}
           >
-            <div on:click={() => !lgScreen && toggleSelected(i)} class="cursor-pointer group font-pixel font-bold">
+            <div
+              on:click={() => !lgScreen && toggleSelected(i)}
+              role="presentation"
+              class="cursor-pointer group font-pixel font-bold"
+            >
               <div class="w-fit" bind:this={titles[i]} bind:clientWidth={titlesWidth[i]}>
                 <slot name="title" {...item} {setExpanded} />
                 <div

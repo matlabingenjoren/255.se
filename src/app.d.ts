@@ -27,6 +27,7 @@ declare module '*&Image' {
 type DeepPartial<T> = T extends object ? { [P in keyof T]?: DeepPartial<T[P]> } : T
 
 declare const tailwindcss: {
-  readonly config: import('tailwindcss/tailwind-config').TailwindConfig &
-    DeepPartial<import('tailwindcss/tailwind-config-default').TailwindConfigDefault>
+  readonly config: import('tailwindcss').Config & {
+    theme: DeepPartial<import('tailwindcss/types/generated/default-theme').DefaultTheme>
+  }
 }

@@ -1,7 +1,7 @@
 <script lang="ts">
   import '../app.css'
-  import Footer from './_Footer.svelte'
-  import Navbar from './_Navbar.svelte'
+  import Footer from './Footer.svelte'
+  import Navbar from './Navbar.svelte'
 
   type Title = { text: string; href?: string }
   type Dropdown = { text: string; href: string }[]
@@ -55,7 +55,7 @@
   <Navbar items={navbarItems}>
     <svelte:fragment slot="title" let:title let:setExpanded>
       {#if 'href' in title}
-        <a href={title.href} on:click={() => setExpanded(false)} sveltekit:prefetch>{title.text}</a>
+        <a href={title.href} on:click={() => setExpanded(false)}>{title.text}</a>
       {:else}
         <span>{title.text}</span>
       {/if}
@@ -65,7 +65,7 @@
         <ul class="text-lg">
           {#each dropdown as subitem}
             <li>
-              <a class="hover:underline" href={subitem.href} on:click={() => setExpanded(false)} sveltekit:prefetch>
+              <a class="hover:underline" href={subitem.href} on:click={() => setExpanded(false)}>
                 {subitem.text}
               </a>
             </li>

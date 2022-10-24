@@ -1,7 +1,7 @@
-/** @type {import('tailwindcss/tailwind-config-default').TailwindConfigDefault['theme']} */
+/** @type {import('tailwindcss/types/generated/default-theme').DefaultTheme} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 
-/** @type {import('tailwindcss/tailwind-config').TailwindConfig} */
+/** @type {import('tailwindcss').Config} */
 const config = {
   content: ['./src/**/*.{html,js,svelte,ts,svx}'],
 
