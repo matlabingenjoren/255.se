@@ -1,6 +1,7 @@
 <script type="ts">
   import img from '$lib/assets/255.png?w=400;800;1200&format=avif;webp&Image';
-	import Image from '$lib/Image.svelte';
+  import logo2022 from '$lib/assets/logo-2022.svg';
+  import Image from '$lib/Image.svelte';
 </script>
 
 # Phaddergruppen 255
@@ -9,13 +10,19 @@ Denna hemsida tillhör phaddergruppen 255 på [F-sektionen](https://ftek.se) vid
 mer om oss kan du exempel göra det här, annars sväng förbi
 [KINSLS](https://maps.chalmers.se/#4c1f9fa6-f421-4a20-b6cf-adf2e01c44b8) på lunchen så sitter vi där!
 
-<Image src={img} class="w-full lg:w-[40%] float-right ml-4 mb-4" />
-
 Varje år ombildas phaddergruppen och tar emot nya de nya medlemmar som vi blir tilldelade av
 [FnollK](https://ftek.se/fnollk), sektionens mottagningskommitté. FnollK delar in medlemmar i olika phaddergrupper (det
 finns totalt i storleksordningen tio phaddergrupper på F-sektionen) baserat på ett formulär som skickas ut till de
 blivande studenterna innan mottagningen. Gränserna mellan phaddergrupperna efter mottagningen är lite flytande, men det
 finns många båda nyantagna och gamla studenter, doktorander och utexaminerade som tillhör 255:s gemenskap.
+
+<div class="flex flex-wrap items-center justify-center gap-x-20 gap-y-4">
+
+<Image src={img} class="w-128" />
+
+<Image src={logo2022} class="w-56" />
+
+</div>
 
 > I DD knattrar fingrar energiskt över härdade tangentbord. Samma fingrar kan lika lätt söka sig längs med ett
 > instrument i färd med att forma tonerna till ännu en fantastisk melodi. En siluett reser sig, darrig, redo att gå ut

@@ -3,6 +3,11 @@ title: Krönikor
 keywords: historia
 ---
 
+<script type="ts">
+  import logo2022 from '$lib/assets/logo-2022.svg';
+  import Image from '$lib/Image.svelte';
+</script>
+
 # {title}
 
 Kortare redogörelser för 255:s moderna historia.
@@ -118,9 +123,10 @@ DuP:en, och de som gick till KINSLS och spelade kortspelet Ergo.
 Metrecon ordnade också brädspelskvällar i Focus eller Singes på lördagskvällarna, då vi spelade favoriter som
 Twister-Blokus och Monopol med tärnings-bias så att man oftast gick baklänges. Vi slog även världsrekord i
 sockerkaks-speedrun (Metrecon har video). Tiden stannade på 13:37 från framplockade ingredienser till ätbar sockerkaka.
-Den var förvånansvärt god och vi bjöd förbipasserade folk i natten. Vi försökte få upp vår prestation på speedrun.com
-genom att införa det som ett sidequest på ett bakspel, men lyckades inte få tag på rätt administratör (d.v.s.
-administatören på det spelet var nog inte aktiv sedan flera år tillbaka).
+Den var förvånansvärt god och vi bjöd förbipasserade folk i natten. En videoinspelning av baket gjordes av Metrecon,
+även Dancis har tillgång till videofilen. Vi försökte senare få upp vår prestation på speedrun.com genom att införa det
+som ett sidequest på ett bakspel, men lyckades inte få tag på rätt administratör (d.v.s. administatören på det spelet
+var nog inte aktiv sedan flera år tillbaka).
 
 Vi tittar på cortégen tillsammans och grillar efterråt i sektionens kundvagnsburna grill. Dock brinner både kolet och
 själva grillen, och vi släcker den senare med vattenflaskor. Efteråt spelas brädspel i Signes. Till 25/5 skrivs ett
@@ -128,6 +134,13 @@ själva grillen, och vi släcker den senare med vattenflaskor. Efteråt spelas b
 som ska göras i spelet.
 
 F:s IT-förening [Spidera](https://ftek.se/spidera) består till majoriteten av 255:or.
+
+Inför nästa års mottagning bestämmer vi att hitta på en logga att ha på tygmärken åt phaddergruppen. Många förslag
+skickas in i Discord och en lång omröstning hålls med hjälp av
+[STV](/röstsystem#enkel-överförbar-röst-single-transferable-vote). Dock blir vi ändå inte nöjda med resultatet och först
+efter applicering av diverse heuristiker kommer vi fram till loggan som visas nedan.
+
+<div class="flex justify-center"><Image src={logo2022} class="w-56" /></div>
 
 Källa: Dancis, Metrecon
 

@@ -10,6 +10,9 @@ const config = {
       fontFamily: {
         pixel: ['Dogica Pixel', defaultTheme.fontFamily.sans],
       },
+      spacing: {
+        128: '32rem',
+      },
       listStyleType: {
         'lower-latin': 'lower-latin',
       },
