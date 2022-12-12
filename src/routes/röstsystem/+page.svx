@@ -1,5 +1,5 @@
 ---
-title: Röstningssytem
+title: Röstsytem
 keywords: filmkväll
 ---
 
@@ -127,6 +127,15 @@ examinator som får full makt att bestämma utfallet av valet.
 Alla alternativ postas på [r/teenagers](https://www.reddit.com/r/teenagers/) och den första kommentar som utväljer ett
 primärt alternativ används för att utse vinnaren av omröstningen.
 
+## FFT
+
+Alla alternativ sorteras in i en ordning och paddas med ett förutbestämt alternativ till en jämn tvåpotens. En vektor
+med längd av antalet alternativ (inklusive paddning) initialiseras till noll. De röstberättigade väljer därefter alla en
+fasfaktor och ett index i vektorn att addera denna fas till. Därefter appliceras inversa
+Fast-Fourier-Transform-algoritmen på vektorn, och det alternativ vars index i den inverstrasformerade vektorn har högst
+realdel vinner. Ett smidigt MATLAB-skript skrivet år 2022 av Eken för att bistå i omrösningnsprocessen finns
+tillgängligt [här](/scripts/FFTVoting.m).
+
 ## Battle of Wits
 
 Röstberättigade kan nominera sig själva till snille. Alla röstberättigade väjer sedan genom
@@ -135,6 +144,16 @@ exakt en bit papper per alternativ så att det finns en bijektion mellan lapparn
 sedan lapparna på ett bord vända så att det inte går att se vilken lapp som hör till vilket alternativ, och pekar sedan,
 utan att behöva vara ärlig, ut vilken lapp som motsvarar vilket alternativ. Övriga i försmaligen väljer sedan genom
 [handuppräckning](#handuppräckning) ut en lapp, och det alternativ som står på lappen vinner.
+
+## Single Elimination med auktion
+
+Varje röstberättigad startar mer ett förutbestämt antal röster, förslagsvis tio, som kan spenderas allt efter
+röstningens gång. Därefter hålls en
+[Single Elimination](https://en.wikipedia.org/wiki/Single-elimination_tournament)-turnering där varje match avgörs genom
+auktion. De röstberättigade kan budge med det antal röster de har kvar sedan föregående omrösningar. Om en match blir
+lika vinner den kandidat som först nådde upp i det antal röster där auktionen stängdes. Alla röster som lagts på
+matchens vinnande alternativ försvinner, medans övriga röster återbördas till respektive röstberättigad. När alla
+röstberättigade har fått slut på röster återfår alla röstberättigade det ursprungliga antalet röster.
 
 ## Rebusar
 
