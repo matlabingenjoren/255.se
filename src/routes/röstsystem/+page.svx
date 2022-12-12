@@ -133,7 +133,7 @@ Alla alternativ sorteras in i en ordning och paddas med ett förutbestämt alter
 med längd av antalet alternativ (inklusive paddning) initialiseras till noll. De röstberättigade väljer därefter alla en
 fasfaktor och ett index i vektorn att addera denna fas till. Därefter appliceras inversa
 Fast-Fourier-Transform-algoritmen på vektorn, och det alternativ vars index i den inverstrasformerade vektorn har högst
-realdel vinner. Ett smidigt MATLAB-skript skrivet år 2022 av Eken för att bistå i omrösningnsprocessen finns
+realdel vinner. Ett smidigt MATLAB-skript skrivet år 2022 av Eken för att bistå i omröstningsprocessen finns
 tillgängligt [här](/scripts/FFTVoting.m).
 
 ## Battle of Wits
